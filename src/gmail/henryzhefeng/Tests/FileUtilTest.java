@@ -12,6 +12,6 @@ public class FileUtilTest {
 
     @Test
     public void testGetAllSinks() throws Exception {
-        assertEquals(154, FileUtil.getAllSinks("SourcesAndSinks.txt").length);
+        assertEquals(154, FileUtil.getAllSinksFromDefinition("SourcesAndSinks.txt").length);
     }
 }
