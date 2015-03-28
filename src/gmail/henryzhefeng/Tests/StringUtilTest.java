@@ -26,6 +26,6 @@ public class StringUtilTest {
     @Test
     public void TestIsSource() {
         assertEquals(StringUtil.isSource(STRING_SOURCE), true);
-        assertNotEquals(StringUtil.isSource(STRING_SINK), false);
+        assertEquals(StringUtil.isSource(STRING_SINK), false);
     }
 }
