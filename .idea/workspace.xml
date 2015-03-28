@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d93aa1-cbdf-47de-a6e7-e39772452232" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SJTU_graduate_work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +42,46 @@
       <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32898173">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.78424656">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#398#406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtilTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtilTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/FileUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -73,10 +111,12 @@
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" />
-        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" />
+        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/FileUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" />
       </list>
     </option>
   </component>
@@ -217,15 +257,15 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="stringu&#9;FILE&#9;file://G:/Github/SJTU_graduate_work/src/gmail/henryzhefeng/Utils/StringUtil.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/Github/SJTU_graduate_work/src/gmail/henryzhefeng/Utils/StringUtil.java&#10;stringu&#9;FILE&#9;file://G:/Github/SJTU_graduate_work/src/gmail/henryzhefeng/Utils/StringUtil.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="gmail.henryzhefeng.Tests" />
       <recent name="gmail.henryzhefeng.Utils" />
+      <recent name="gmail.henryzhefeng.Tests" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.gmail.henryzhefeng.Tests in SJTU_graduate_work">
@@ -453,13 +493,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -468,7 +508,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -481,7 +521,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -505,24 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067885116">
-          <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -531,11 +555,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/FileUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32898173">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.78424656">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

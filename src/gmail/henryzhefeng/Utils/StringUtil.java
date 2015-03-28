@@ -8,12 +8,13 @@ import java.util.regex.Pattern;
 public class StringUtil {
 
     public final static String RESULT_SINK_MARK = "Found a flow to sink";
+    public final static String DEFINITION_SINK_MARK = "_SINK_";
     public final static Pattern SOURCE_PATTERN = Pattern.compile("^- \\$.*<.*>.*\\(in <.*>\\)$");
 
     /**
-     * Get the sink part of the input string, if no sink, then return null.
+     * Get the sink part from the result file, if no sink, then return null.
      */
-    public static String getSinkStr(String line) {
+    public static String getSinkFromResult(String line) {
         int index = line.indexOf(RESULT_SINK_MARK);
         // input doesn't contains a sink, return null.
         if (index == -1) {
@@ -21,7 +22,23 @@ public class StringUtil {
         }
         // input contains a sink
         int indStart = line.indexOf('<');
-        int indEnd = line.indexOf('>');
+        int indEnd = line.lastIndexOf('>');
+        if (indStart == -1 || indEnd == -1) {
+            return null;
+        }
+        return line.substring(indStart, indEnd + 1);
+    }
+
+    public static String getSinkFromDefinition(String line) {
+        int index = line.indexOf(DEFINITION_SINK_MARK);
+        // input doesn't contains a sink, return null.
+        if (index == -1) {
+            return null;
+        }
+        // input contains a sink
+        int indStart = line.indexOf('<');
+        int indEnd = line.lastIndexOf('>');
+        indEnd = line.lastIndexOf('>', indEnd - 1);
         if (indStart == -1 || indEnd == -1) {
             return null;
         }
