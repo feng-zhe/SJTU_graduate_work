@@ -51,4 +51,9 @@ public class StringUtil {
     public static boolean isSource(String line) {
         return SOURCE_PATTERN.matcher(line).matches();
     }
+
+    public static String getNameFromString(String fileName) {
+        int dot = fileName.indexOf('.');
+        return fileName.substring(0, dot);
+    }
 }

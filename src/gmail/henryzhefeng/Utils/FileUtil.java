@@ -11,6 +11,8 @@ import java.util.List;
  */
 public class FileUtil {
 
+    private static final String RESULT_EXTENSION = "result";
+
     /**
      * 获取SourcesAndSinks文件中的所有sink。
      */
@@ -65,6 +67,19 @@ public class FileUtil {
             return null;
         }
 
+    }
+
+    /**
+     * 判断是否是result文件
+     */
+    public static boolean isResultFile(String fileName) {
+        int dot = fileName.lastIndexOf('.');
+        String extension = fileName.substring(dot + 1, fileName.length());
+        if (extension.equals(RESULT_EXTENSION)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
