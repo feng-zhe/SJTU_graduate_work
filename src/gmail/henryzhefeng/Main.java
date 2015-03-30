@@ -30,7 +30,7 @@ public class Main {
             }
         }
 
-        // 反馈学习
+        // 学习
         Learner learner = new LinearLearner(sinkInfos);
         learner.startLearning();
     }

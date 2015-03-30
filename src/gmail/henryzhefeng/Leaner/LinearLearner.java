@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class LinearLearner extends Learner {
 
-    // 包含每个sink的对应权重值
+    // contains the weight for each parameter
     private int[] mParams;
-    // sink对应的source数量
+    // the count of sources for each sink in result files.
     private List<FileSinkInfo> mInfos;
 
     /**
-     * 初始化函数
+     * init function
      */
     public LinearLearner(List<FileSinkInfo> infos) {
         mInfos = infos;
@@ -31,6 +31,9 @@ public class LinearLearner extends Learner {
     protected void calculate() {
         // todo
     }
+
+    // indicating the previous deviation from expect.
+    private float mPrevDeviation = Float.MAX_VALUE;
 
     @Override
     protected boolean feedBack() {

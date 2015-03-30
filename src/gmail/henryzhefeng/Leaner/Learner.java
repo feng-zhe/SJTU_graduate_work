@@ -6,24 +6,24 @@ package gmail.henryzhefeng.Leaner;
 public abstract class Learner {
 
     /**
-     * 开始学习
+     * start to learn
      */
     public abstract void startLearning();
 
     /**
-     * 计算值
+     * calculate values
      */
     protected abstract void calculate();
 
     /**
-     * 获取反馈情况
+     * get the feedback
      *
-     * @return true表示本次计算结果比上次好
+     * @return true means params of this time is better
      */
     protected abstract boolean feedBack();
 
     /**
-     * 调整下一次计算的参数
+     * ajust the params for next calculation.
      */
     protected abstract void ajustParams();
 }

@@ -7,14 +7,13 @@ import java.util.List;
 
 /**
  * Created by 哲 on 3/28/2015.
- * 本类主要负责从文件中读取相关内容
  */
 public class FileUtil {
 
     private static final String RESULT_EXTENSION = "result";
 
     /**
-     * 获取SourcesAndSinks文件中的所有sink。
+     * get all sinks from SourcesAndSinks
      */
     public static String[] getAllSinksFromDefinition(String filePath) {
         try {
@@ -34,10 +33,9 @@ public class FileUtil {
     }
 
     /**
-     * 从结果文件中读取信息
+     * Read sinks and corresponding sources from result file
      *
-     * @return 返回的是个int数组，数组的下标对应的是sink的ID值，而数组元素的的值表示的是该sink对应多少个source。
-     * 如果出问题，则返回null
+     * @return the subscript is the id of sinks, the value is the count of sources for the sink
      */
     public static int[] getResult(String filePath) {
         try {
@@ -70,7 +68,7 @@ public class FileUtil {
     }
 
     /**
-     * 判断是否是result文件
+     * Determind whether this is a result file
      */
     public static boolean isResultFile(String fileName) {
         int dot = fileName.lastIndexOf('.');
