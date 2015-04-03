@@ -10,20 +10,4 @@ public abstract class Learner {
      */
     public abstract void startLearning();
 
-    /**
-     * calculate values
-     */
-    protected abstract void calculate();
-
-    /**
-     * get the feedback
-     *
-     * @return true means params of this time is better
-     */
-    protected abstract boolean feedBack();
-
-    /**
-     * ajust the params for next calculation.
-     */
-    protected abstract void ajustParams();
 }
