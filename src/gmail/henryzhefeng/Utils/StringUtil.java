@@ -14,7 +14,7 @@ public class StringUtil {
     /**
      * Get the sink part from the result file, if no sink, then return null.
      */
-    public static String getSinkFromResult(String line) {
+    public static String parseSinkFromResultLine(String line) {
         int index = line.indexOf(RESULT_SINK_MARK);
         // input doesn't contains a sink, return null.
         if (index == -1) {
@@ -29,7 +29,7 @@ public class StringUtil {
         return line.substring(indStart, indEnd + 1);
     }
 
-    public static String getSinkFromDefinition(String line) {
+    public static String parseSinkFromDefinitionLine(String line) {
         int index = line.indexOf(DEFINITION_SINK_MARK);
         // input doesn't contains a sink, return null.
         if (index == -1) {

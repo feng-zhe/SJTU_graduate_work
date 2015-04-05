@@ -21,7 +21,7 @@ public class FileUtil {
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
             String line = null;
             while ((line = reader.readLine()) != null) {
-                String sink = StringUtil.getSinkFromDefinition(line);
+                String sink = StringUtil.parseSinkFromDefinitionLine(line);
                 if (sink != null) {
                     rst.add(sink);
                 }
@@ -45,7 +45,7 @@ public class FileUtil {
             int id = -1;
             int cnt = 0;
             while ((line = bd.readLine()) != null) {
-                String sink = StringUtil.getSinkFromResult(line);
+                String sink = StringUtil.parseSinkFromResultLine(line);
                 // this line contains a sink.
                 if (sink != null) {
                     // record the cnt of sources for the previous sink

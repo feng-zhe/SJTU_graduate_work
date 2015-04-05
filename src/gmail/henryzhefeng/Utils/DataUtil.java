@@ -22,6 +22,10 @@ public class DataUtil {
         return mIdToName[id];
     }
 
+    /**
+     * @param name
+     * @return -1 means there is no such sink.
+     */
     public static int getId(String name) {
         if (mNameToId.containsKey(name)) {
             return mNameToId.get(name);

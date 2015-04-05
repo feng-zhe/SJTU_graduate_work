@@ -17,18 +17,18 @@ public class StringUtilTest {
 
     @Test
     public void testGetSinkFromResult() throws Exception {
-        assertNotEquals(StringUtil.getSinkFromResult(RESULT_SINK), null);
-        assertEquals(StringUtil.getSinkFromResult(RESULT_SOURCE), null);
-        assertEquals(StringUtil.getSinkFromResult("hello < sssssdfdsa "), null);
-        assertEquals(StringUtil.getSinkFromResult("Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences "), null);
-        assertNotEquals(StringUtil.getSinkFromResult("Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences>"), null);
+        assertNotEquals(StringUtil.parseSinkFromResultLine(RESULT_SINK), null);
+        assertEquals(StringUtil.parseSinkFromResultLine(RESULT_SOURCE), null);
+        assertEquals(StringUtil.parseSinkFromResultLine("hello < sssssdfdsa "), null);
+        assertEquals(StringUtil.parseSinkFromResultLine("Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences "), null);
+        assertNotEquals(StringUtil.parseSinkFromResultLine("Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences>"), null);
     }
 
     @Test
     public void testGetSinkFromDefinition() throws Exception {
-        assertNotEquals(StringUtil.getSinkFromDefinition(DEFINITION_SINK), null);
-        assertEquals(StringUtil.getSinkFromDefinition(RESULT_SINK), null);
-        assertEquals(StringUtil.getSinkFromDefinition(RESULT_SOURCE), null);
+        assertNotEquals(StringUtil.parseSinkFromDefinitionLine(DEFINITION_SINK), null);
+        assertEquals(StringUtil.parseSinkFromDefinitionLine(RESULT_SINK), null);
+        assertEquals(StringUtil.parseSinkFromDefinitionLine(RESULT_SOURCE), null);
     }
 
     @Test

@@ -25,8 +25,9 @@ public class Main {
         for (File file : files) {
             if (FileUtil.isResultFile(file.getName())) {
                 FileSinkInfo info = new FileSinkInfo();
-                info.sinks = FileUtil.getResult("24pi.apk.result");
+                info.sinks = FileUtil.getResult(file.getPath());
                 info.apkName = StringUtil.getNameFromString(file.getName());
+                sinkInfos.add(info);
             }
         }
 
