@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d93aa1-cbdf-47de-a6e7-e39772452232" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/DataUtil.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/DataUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java" />
     </list>
     <ignored path="SJTU_graduate_work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,18 +42,31 @@
       <file leaf-file-name="LinearLearner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6615385">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8938356">
+              <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6269#6270#0" expanded="true" />
-                <element signature="e#6322#6323#0" expanded="true" />
-                <element signature="e#6388#6389#0" expanded="true" />
-                <element signature="e#6441#6442#0" expanded="true" />
-                <element signature="e#6814#6815#0" expanded="true" />
-                <element signature="e#6867#6868#0" expanded="true" />
-                <element signature="e#6933#6934#0" expanded="true" />
-                <element signature="e#6986#6987#0" expanded="true" />
+                <element signature="docComment;class#LinearLearner#0" expanded="false" />
+                <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+                <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="e#4122#4123#0" expanded="true" />
+                <element signature="e#4166#4167#0" expanded="true" />
+                <element signature="e#4206#4207#0" expanded="true" />
+                <element signature="e#4255#4256#0" expanded="true" />
+                <element signature="e#4302#4303#0" expanded="true" />
+                <element signature="e#4348#4349#0" expanded="true" />
+                <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+                <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -529,11 +537,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16490166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -541,16 +551,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -581,14 +589,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,14 +638,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -645,14 +679,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -673,14 +720,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -701,14 +761,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,14 +802,27 @@
           <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,14 +857,27 @@
           <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -813,14 +912,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1035,6 +1147,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36923078">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1045,28 +1165,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/Learner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36923078">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6615385">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8938356">
+          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#6322#6323#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6933#6934#0" expanded="true" />
-            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="docComment;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#LinearLearner#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="method#restoreParams#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculate#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#calculateDeviation#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countHighPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="docComment;method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#countLowPart#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMaxScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#getMinScore#0;class#Adjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#IncreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
+            <element signature="method#adjustParams#0;class#DecreaseAdjuster#0;class#LinearLearner#0" expanded="false" />
           </folding>
         </state>
       </provider>

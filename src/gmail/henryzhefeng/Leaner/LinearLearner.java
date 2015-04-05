@@ -27,7 +27,6 @@ public class LinearLearner extends Learner {
     private double mDeviation = Double.MAX_VALUE;
     // the current adjust times for one param
     private int mAdjustTimes = 0;
-    private Adjuster mAdjuster;
 
     /**
      * Constructor
@@ -44,53 +43,96 @@ public class LinearLearner extends Learner {
     public void startLearning() {
         for (int i = 0; i < mParams.length; i++) { // each loop adjust one parameter
             mAdjustIndex = i;
+            // try increaseAdjuster
             mAdjustTimes = 0;
-            mAdjuster = new IncreaseAdjuster();
+            Adjuster incAdjuster = new IncreaseAdjuster(mParams);
             mAdjustTimes++;
             while (mAdjustTimes <= MAX_ADJUST_TIMES) {
-                mAdjuster.startAdjust();
+                incAdjuster.startAdjust();
+                incAdjuster = incAdjuster.getNextAdjuster();
+                mAdjustTimes++;
             }
+            // try decreaseAdjuster
+            mAdjustTimes = 0;
+            Adjuster decAdjuster = new DecreaseAdjuster(mParams);
+            mAdjustTimes++;
+            while (mAdjustTimes <= MAX_ADJUST_TIMES) {
+                decAdjuster.startAdjust();
+                decAdjuster = decAdjuster.getNextAdjuster();
+                mAdjustTimes++;
+            }
+            // compare
+            Adjuster betterAdjuster = decAdjuster;
+            if (incAdjuster.getDeviation() < decAdjuster.getDeviation()) {
+                betterAdjuster = incAdjuster;
+            }
+            mParams[mAdjustIndex] = betterAdjuster.getAdjustedParams()[mAdjustIndex];
         }
     }
 
 
+    /**
+     * The Adjuster won't change the any value in learner.
+     */
     private abstract class Adjuster {
 
-
         // the max retry times
-        protected final static int MAX_RETRIES = 10;
+        protected final static int MAX_RETRIES = 20;
         // the initial step without retries
         protected final static double MAX_STEP = 0.1;
         // the adjusted params
+        protected double[] mOriginParams;
         protected double[] mAdjustedParams;
+        protected Adjuster mNextAdjuster;
+        protected double mOriginDeviation;
+        protected double mAdjustedDeviation;
         // current reties
         protected int mRetries = 0;
 
-        protected Adjuster() {
-            mAdjustedParams = new double[mParams.length];
+        public Adjuster(double[] params) {
+            mOriginParams = params;
+            mAdjustedParams = new double[params.length];
             // copy the parameters
-            for (int i = 0; i < mParams.length; i++) {
-                mAdjustedParams[i] = mParams[i];
+            for (int i = 0; i < params.length; i++) {
+                mAdjustedParams[i] = params[i];
             }
+            mOriginDeviation = calculateDeviation();
         }
 
         public void startAdjust() {
-            LinearLearner.this.mAdjustTimes++;
             while (mRetries < MAX_RETRIES) {
                 adjustParams();
                 double deviation = calculateDeviation();
                 // adjust successfully
-                if (deviation < LinearLearner.this.mDeviation) { // succeed
-                    LinearLearner.this.mParams[LinearLearner.this.mAdjustIndex]
-                            = mAdjustedParams[LinearLearner.this.mAdjustIndex];
-                    LinearLearner.this.mDeviation = deviation;
-                    LinearLearner.this.mAdjuster = getSuccAdjuster();
+                if (deviation < mOriginDeviation) { // succeed
+                    mAdjustedDeviation = deviation;
+                    mNextAdjuster = getSuccAdjuster();
                     return;
                 }
+                restoreParams();
                 mRetries++;
             }
             // adjust failed
-            LinearLearner.this.mAdjuster = getFailAdjuster();
+            mAdjustedDeviation = mOriginDeviation;
+            mAdjustedParams = mOriginParams;
+            mNextAdjuster = getFailAdjuster();
+        }
+
+        public Adjuster getNextAdjuster() {
+            return mNextAdjuster;
+        }
+
+        public double getDeviation() {
+            return mAdjustedDeviation;
+        }
+
+        public double[] getAdjustedParams() {
+            return mAdjustedParams;
+        }
+
+        protected void restoreParams() {
+            mAdjustedParams[LinearLearner.this.mAdjustIndex] =
+                    LinearLearner.this.mParams[LinearLearner.this.mAdjustIndex];
         }
 
         // returns the next adjuster when adjust successfully this time
@@ -108,7 +150,7 @@ public class LinearLearner extends Learner {
                 double score = 0;
                 // we use linear algorithm
                 for (int j = 0; j < sinks.length; j++) {
-                    score += mParams[j] * sinks[j];
+                    score += mAdjustedParams[j] * sinks[j];
                 }
                 scores[i] = score;
             }
@@ -185,14 +227,18 @@ public class LinearLearner extends Learner {
 
     private class IncreaseAdjuster extends Adjuster {
 
+        public IncreaseAdjuster(double[] params) {
+            super(params);
+        }
+
         @Override
         protected Adjuster getSuccAdjuster() {
-            return new IncreaseAdjuster();
+            return new IncreaseAdjuster(mAdjustedParams);
         }
 
         @Override
         protected Adjuster getFailAdjuster() {
-            return new DecreaseAdjuster();
+            return new DecreaseAdjuster(mOriginParams);
         }
 
         @Override
@@ -205,14 +251,18 @@ public class LinearLearner extends Learner {
 
     private class DecreaseAdjuster extends Adjuster {
 
+        public DecreaseAdjuster(double[] params) {
+            super(params);
+        }
+
         @Override
         protected Adjuster getSuccAdjuster() {
-            return new DecreaseAdjuster();
+            return new DecreaseAdjuster(mAdjustedParams);
         }
 
         @Override
         protected Adjuster getFailAdjuster() {
-            return new IncreaseAdjuster();
+            return new IncreaseAdjuster(mOriginParams);
         }
 
         @Override
