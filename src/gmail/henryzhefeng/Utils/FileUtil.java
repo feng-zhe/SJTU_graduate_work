@@ -2,8 +2,10 @@ package gmail.henryzhefeng.Utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by ем on 3/28/2015.
@@ -78,6 +80,27 @@ public class FileUtil {
         } else {
             return false;
         }
+    }
+
+    /**
+     * Get the socres we assigned to each file
+     *
+     * @param filePath
+     * @return
+     */
+    public static Map<String, Integer> readAssignedScores(String filePath) {
+        Map<String, Integer> result = new HashMap<String, Integer>();
+        try {
+            BufferedReader bd = new BufferedReader(new FileReader(filePath));
+            String line;
+            while ((line = bd.readLine()) != null) {
+                String[] splits = line.split("\\s+");
+                result.put(splits[0], Integer.parseInt(splits[1]));
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+        return result;
     }
 
 }
