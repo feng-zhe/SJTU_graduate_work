@@ -56,10 +56,11 @@ public class FileUtil {
                     }
                     id = DataUtil.getId(sink);
                     cnt = 0;
-                }
-                // this line contains a source
-                else {
-                    ++cnt;
+                } else {
+                    if (id != -1) {
+                        // this line contains a source
+                        ++cnt;
+                    }
                 }
             }
             return result;

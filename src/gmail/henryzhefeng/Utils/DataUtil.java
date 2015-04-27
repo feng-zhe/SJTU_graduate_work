@@ -13,6 +13,7 @@ public class DataUtil {
 
     public static void initData(String[] data) {
         mIdToName = data;
+        mNameToId.clear();
         for (int i = 0; i < mIdToName.length; i++) {
             mNameToId.put(data[i], i);
         }
