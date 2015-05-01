@@ -16,22 +16,25 @@ public class Main {
         String inputDir = null;
         String outputDir = null;
         boolean isAnalyse = false;
+        boolean isCalculate = false;
+        boolean isStatistic = false;
 
         // 处理输入参数
         int i = 0;
         try {
             while (i < args.length) {
-                if (args[i].equals("-a")) { // 分析
+                if (args[i].equals("-a")) { // 使用分析功能，生成matlab命令
                     isAnalyse = true;
-                    i++;
-                } else if (args[i].equals("-i")) { // 输入文件夹地址
-                    inputDir = args[i + 1];
-                    i++;
-                } else if (args[i].equals("-o")) { // 输出文件夹地址
-                    outputDir = args[i + 1];
+                } else if (args[i].equals("-s")) { // 使用统计功能
+                    isStatistic = true;
                 } else if (args[i].equals("-c")) { // 利用matlab的结果来计算值
-                    runCalculate(inputDir, outputDir);
+                    isCalculate = true;
+                } else if (args[i].equals("-i")) { // 输入文件夹地址
+                    inputDir = args[++i];
+                } else if (args[i].equals("-o")) { // 输出文件夹地址
+                    outputDir = args[++i];
                 }
+                ++i;
             }
         } catch (Exception ex) {
             if (i + 1 >= args.length) {
@@ -40,9 +43,20 @@ public class Main {
             }
         }
 
+        inputDir = inputDir == null ? "./inputDir" : inputDir;
+        outputDir = outputDir == null ? "./outputDir" : outputDir;
+
         // 根据参数，运行对应代码
         if (isAnalyse) {
             runAnalyse(inputDir, outputDir);
+        }
+
+        if (isStatistic) {
+            runStatistic(inputDir, outputDir);
+        }
+
+        if (isCalculate) {
+            runCalculate(inputDir, outputDir);
         }
 
     }
@@ -55,7 +69,7 @@ public class Main {
 
         // 分析当前目录下的所有result文件，并保存结果与变量中
         List<FileSinkInfo> sinkInfos = new ArrayList<FileSinkInfo>();
-        final String INPUT_DIR = inputDirStr == null ? "./inputDir" : inputDirStr;
+        final String INPUT_DIR = inputDirStr;
         File dir = new File(INPUT_DIR);
         File[] files = dir.listFiles();
         // for test
@@ -63,82 +77,15 @@ public class Main {
             if (FileUtil.isResultFile(file.getName())) {
                 FileSinkInfo info = new FileSinkInfo();
                 info.sinks = FileUtil.getResult(file.getPath());
-                info.apkName = StringUtil.getNameFromString(file.getName());
+                info.apkName = StringUtil.getApkNameFromString(file.getName());
                 sinkInfos.add(info);
             }
         }
 
         // 构造输出文件夹
-        final String OUTPUT_DIR = outputDirStr == null ? "./outputDir" : outputDirStr;
+        final String OUTPUT_DIR = outputDirStr;
         File outDir = new File(OUTPUT_DIR);
         if (!outDir.exists()) outDir.mkdir();
-
-        // 对应每个apk的分析结果，保存统计结果到对应的文件中
-        try {
-            for (FileSinkInfo info : sinkInfos) {
-                File statFile = new File(OUTPUT_DIR + "/" + info.apkName);
-                BufferedWriter bw = new BufferedWriter(new FileWriter(statFile, false));
-                for (int i = 0; i < info.sinks.length; ++i) {
-                    bw.write(DataUtil.getName(i));
-                    bw.write("\t");
-                    bw.write(String.valueOf(info.sinks[i]));
-                    bw.newLine();
-                }
-                bw.flush();
-                bw.close();
-            }
-        } catch (Exception ex) {
-            System.out.println("[OUTPUT] error: can't write statistic files for each apk!");
-            return;
-        }
-
-        // 对于所有的输入文件，进行总体上的sink统计
-        try {
-            int[] summarySinks = new int[sinks.length];
-            for (FileSinkInfo info : sinkInfos) {
-                for (int i = 0; i < info.sinks.length; i++) {
-                    summarySinks[i] += info.sinks[i];
-                }
-            }
-            class Sink {
-                int id;
-                int count;
-            }
-            Comparator<Sink> comparator = new Comparator<Sink>() {
-                @Override
-                public int compare(Sink o1, Sink o2) {
-                    if (o1.count < o2.count) {
-                        return 1;
-                    } else if (o1.count > o2.count) {
-                        return -1;
-                    } else {
-                        return 0;
-                    }
-                }
-            };
-            PriorityQueue<Sink> queue = new PriorityQueue<Sink>(comparator);
-            for (int i = 0; i < summarySinks.length; i++) {
-                Sink sink = new Sink();
-                sink.id = i;
-                sink.count = summarySinks[i];
-                queue.add(sink);
-            }
-            File summaryFile = new File(OUTPUT_DIR + "/" + "summary.txt");
-            BufferedWriter bw = new BufferedWriter(new FileWriter(summaryFile, false));
-            while (!queue.isEmpty()) {
-                Sink sink = queue.poll();
-                bw.write(DataUtil.getName(sink.id));
-                bw.write("\t\t");
-                bw.write(String.valueOf(sink.count));
-                bw.newLine();
-            }
-            bw.flush();
-            bw.close();
-        } catch (Exception ex) {
-            System.out.println("[OUTPUT] error: can't write summary statistic files!");
-            return;
-        }
-
 
         // 构造matlab的quadprog命令
         try {
@@ -244,6 +191,99 @@ public class Main {
 //        learner.startLearning();
     }
 
+    private static void runStatistic(String inputDirStr, String outputDirStr) {
+
+        // 获取所有sink列表
+        String[] sinks = FileUtil.getAllSinksFromDefinition("SourcesAndSinks.txt");
+        DataUtil.initData(sinks);
+
+        // 分析当前目录下的所有result文件，并保存结果与变量中
+        List<FileSinkInfo> sinkInfos = new ArrayList<FileSinkInfo>();
+        final String INPUT_DIR = inputDirStr;
+        File dir = new File(INPUT_DIR);
+        File[] files = dir.listFiles();
+        // for test
+        for (File file : files) {
+            if (FileUtil.isResultFile(file.getName())) {
+                FileSinkInfo info = new FileSinkInfo();
+                info.sinks = FileUtil.getResult(file.getPath());
+                info.apkName = StringUtil.getApkNameFromString(file.getName());
+                sinkInfos.add(info);
+            }
+        }
+
+        // 构造输出文件夹
+        final String OUTPUT_DIR = outputDirStr;
+        File outDir = new File(OUTPUT_DIR);
+        if (!outDir.exists()) outDir.mkdir();
+
+        // 对应每个apk的分析结果，保存统计结果到对应的文件中
+        try {
+            for (FileSinkInfo info : sinkInfos) {
+                File statFile = new File(OUTPUT_DIR + "/" + info.apkName);
+                BufferedWriter bw = new BufferedWriter(new FileWriter(statFile, false));
+                for (int i = 0; i < info.sinks.length; ++i) {
+                    bw.write(DataUtil.getName(i));
+                    bw.write("\t");
+                    bw.write(String.valueOf(info.sinks[i]));
+                    bw.newLine();
+                }
+                bw.flush();
+                bw.close();
+            }
+        } catch (Exception ex) {
+            System.out.println("[OUTPUT] error: can't write statistic files for each apk!");
+            return;
+        }
+
+        // 对于所有的输入文件，进行总体上的sink统计
+        try {
+            int[] summarySinks = new int[sinks.length];
+            for (FileSinkInfo info : sinkInfos) {
+                for (int i = 0; i < info.sinks.length; i++) {
+                    summarySinks[i] += info.sinks[i];
+                }
+            }
+            class Sink {
+                int id;
+                int count;
+            }
+            Comparator<Sink> comparator = new Comparator<Sink>() {
+                @Override
+                public int compare(Sink o1, Sink o2) {
+                    if (o1.count < o2.count) {
+                        return 1;
+                    } else if (o1.count > o2.count) {
+                        return -1;
+                    } else {
+                        return 0;
+                    }
+                }
+            };
+            PriorityQueue<Sink> queue = new PriorityQueue<Sink>(comparator);
+            for (int i = 0; i < summarySinks.length; i++) {
+                Sink sink = new Sink();
+                sink.id = i;
+                sink.count = summarySinks[i];
+                queue.add(sink);
+            }
+            File summaryFile = new File(OUTPUT_DIR + "/" + "summary.txt");
+            BufferedWriter bw = new BufferedWriter(new FileWriter(summaryFile, false));
+            while (!queue.isEmpty()) {
+                Sink sink = queue.poll();
+                bw.write(DataUtil.getName(sink.id));
+                bw.write("\t\t");
+                bw.write(String.valueOf(sink.count));
+                bw.newLine();
+            }
+            bw.flush();
+            bw.close();
+        } catch (Exception ex) {
+            System.out.println("[OUTPUT] error: can't write summary statistic files!");
+            return;
+        }
+    }
+
     private static void runCalculate(String inputDir, String outputDir) {
 
         // 获取所有sink列表
@@ -276,7 +316,7 @@ public class Main {
             if (FileUtil.isResultFile(file.getName())) {
                 FileSinkInfo info = new FileSinkInfo();
                 info.sinks = FileUtil.getResult(file.getPath());
-                info.apkName = StringUtil.getNameFromString(file.getName());
+                info.apkName = StringUtil.getApkNameFromString(file.getName());
                 sinkInfos.add(info);
             }
         }

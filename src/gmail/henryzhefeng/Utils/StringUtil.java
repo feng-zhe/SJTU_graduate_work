@@ -52,7 +52,7 @@ public class StringUtil {
         return SOURCE_PATTERN.matcher(line).matches();
     }
 
-    public static String getNameFromString(String fileName) {
+    public static String getApkNameFromString(String fileName) {
         int dot = fileName.indexOf('.');
         return fileName.substring(0, dot);
     }
