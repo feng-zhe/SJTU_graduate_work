@@ -1,6 +1,7 @@
 package gmail.henryzhefeng;
 
 import gmail.henryzhefeng.Models.FileSinkInfo;
+import gmail.henryzhefeng.Models.SinkStatistic;
 import gmail.henryzhefeng.Utils.Constants;
 import gmail.henryzhefeng.Utils.DataUtil;
 import gmail.henryzhefeng.Utils.FileUtil;
@@ -89,21 +90,24 @@ public class Main {
 
         // 构造matlab的quadprog命令
         try {
-            File matlab = new File(OUTPUT_DIR + "/matlab.txt");
+            File matlab = new File(OUTPUT_DIR + "/matlab_command.txt");
             BufferedWriter bw = new BufferedWriter(new FileWriter(matlab, false));
             // 获取指定的样本值
-            Map<String, Integer> assignedScores = FileUtil.readAssignedScores(INPUT_DIR + "/assignment.txt");
+            Map<String, Integer> assignedScores = FileUtil.readAssignedScores(INPUT_DIR + "/examples.txt");
             // 构造H矩阵，和F矩阵
             long[][] H = new long[sinks.length][sinks.length];
             long[] F = new long[sinks.length];
             for (FileSinkInfo info : sinkInfos) {
-                for (int i = 0; i < sinks.length; i++) {
-                    for (int j = 0; j < sinks.length; j++) {
-                        H[i][j] += 2 * info.sinks[i] * info.sinks[j];
+                // 当前的文件是作为样本的
+                if (assignedScores.containsKey(info.apkName)) {
+                    for (int i = 0; i < sinks.length; i++) {
+                        for (int j = 0; j < sinks.length; j++) {
+                            H[i][j] += 2 * info.sinks[i] * info.sinks[j];
+                        }
                     }
-                }
-                for (int i = 0; i < sinks.length; i++) {
-                    F[i] += -2 * assignedScores.get(info.apkName) * info.sinks[i];
+                    for (int i = 0; i < sinks.length; i++) {
+                        F[i] += -2 * assignedScores.get(info.apkName) * info.sinks[i];
+                    }
                 }
             }
             bw.write("H=[");
@@ -217,15 +221,38 @@ public class Main {
         File outDir = new File(OUTPUT_DIR);
         if (!outDir.exists()) outDir.mkdir();
 
+        // 后续会用到的比较操作者，使得在优先级队列中按照降序排列
+        Comparator<SinkStatistic> comparator = new Comparator<SinkStatistic>() {
+            @Override
+            public int compare(SinkStatistic o1, SinkStatistic o2) {
+                if (o1.count < o2.count) {
+                    return 1;
+                } else if (o1.count > o2.count) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            }
+        };
+
         // 对应每个apk的分析结果，保存统计结果到对应的文件中
         try {
             for (FileSinkInfo info : sinkInfos) {
-                File statFile = new File(OUTPUT_DIR + "/" + info.apkName);
+                PriorityQueue<SinkStatistic> queue = new PriorityQueue<SinkStatistic>(info.sinks.length, comparator);
+                for (int i = 0; i < info.sinks.length; i++) {
+                    SinkStatistic sinkStatistic = new SinkStatistic();
+                    sinkStatistic.id = i;
+                    sinkStatistic.count = info.sinks[i];
+                    queue.add(sinkStatistic);
+                }
+                File statFile = new File(OUTPUT_DIR + "/" + info.apkName + ".txt");
                 BufferedWriter bw = new BufferedWriter(new FileWriter(statFile, false));
-                for (int i = 0; i < info.sinks.length; ++i) {
-                    bw.write(DataUtil.getName(i));
+                while (!queue.isEmpty()) {
+                    SinkStatistic sinkStatistic = queue.poll();
+                    if (sinkStatistic.count == 0) continue;
+                    bw.write(DataUtil.getName(sinkStatistic.id));
                     bw.write("\t");
-                    bw.write(String.valueOf(info.sinks[i]));
+                    bw.write(String.valueOf(sinkStatistic.count));
                     bw.newLine();
                 }
                 bw.flush();
@@ -244,25 +271,9 @@ public class Main {
                     summarySinks[i] += info.sinks[i];
                 }
             }
-            class Sink {
-                int id;
-                int count;
-            }
-            Comparator<Sink> comparator = new Comparator<Sink>() {
-                @Override
-                public int compare(Sink o1, Sink o2) {
-                    if (o1.count < o2.count) {
-                        return 1;
-                    } else if (o1.count > o2.count) {
-                        return -1;
-                    } else {
-                        return 0;
-                    }
-                }
-            };
-            PriorityQueue<Sink> queue = new PriorityQueue<Sink>(comparator);
+            PriorityQueue<SinkStatistic> queue = new PriorityQueue<SinkStatistic>(summarySinks.length, comparator);
             for (int i = 0; i < summarySinks.length; i++) {
-                Sink sink = new Sink();
+                SinkStatistic sink = new SinkStatistic();
                 sink.id = i;
                 sink.count = summarySinks[i];
                 queue.add(sink);
@@ -270,7 +281,8 @@ public class Main {
             File summaryFile = new File(OUTPUT_DIR + "/" + "summary.txt");
             BufferedWriter bw = new BufferedWriter(new FileWriter(summaryFile, false));
             while (!queue.isEmpty()) {
-                Sink sink = queue.poll();
+                SinkStatistic sink = queue.poll();
+                if (sink.count == 0) continue;
                 bw.write(DataUtil.getName(sink.id));
                 bw.write("\t\t");
                 bw.write(String.valueOf(sink.count));
