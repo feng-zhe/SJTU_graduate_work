@@ -1,3 +1,0 @@
-Found a flow to sink specialinvoke $r9.<java.net.URL: void <init>(java.lang.String)>($r3) on line 77, from the following sources:
-	- $r10 = virtualinvoke $r14.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.qihoo.util.DefenceReport: void run()>)
-	- $r6 = virtualinvoke $r14.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.qihoo.util.DefenceReport: void run()>)
