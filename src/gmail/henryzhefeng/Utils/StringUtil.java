@@ -9,6 +9,7 @@ public class StringUtil {
 
     public final static String RESULT_SINK_MARK = "Found a flow to sink";
     public final static String DEFINITION_SINK_MARK = "_SINK_";
+    public final static String ANALYSE_ENDING_MARK = "Analysis has run for";
     public final static Pattern SOURCE_PATTERN = Pattern.compile("^- \\$.*<.*>.*\\(in <.*>\\)$");
 
     /**
@@ -50,6 +51,13 @@ public class StringUtil {
      */
     public static boolean isSource(String line) {
         return SOURCE_PATTERN.matcher(line).matches();
+    }
+
+    /**
+     * Judge whether this is end of the analyse
+     */
+    public static boolean isAnalyseEnd(String line) {
+        return line.indexOf(ANALYSE_ENDING_MARK) >= 0 ? true : false;
     }
 
     public static String getApkNameFromString(String fileName) {

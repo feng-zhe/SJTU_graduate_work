@@ -47,11 +47,14 @@ public class FileUtil {
             int id = -1;
             int cnt = 0;
             while ((line = bd.readLine()) != null) {
+                if (StringUtil.isAnalyseEnd(line) && id >= 0) {
+                    result[id] = cnt;
+                }
                 String sink = StringUtil.parseSinkFromResultLine(line);
                 // this line contains a sink.
                 if (sink != null) {
                     // record the cnt of sources for the previous sink
-                    if (id > 0) {
+                    if (id >= 0) {
                         result[id] = cnt;
                     }
                     id = DataUtil.getId(sink);
