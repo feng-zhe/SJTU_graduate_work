@@ -1,0 +1,963 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/tong_hua_shun.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.hexin.android.component.fenshitab.TabBar is a phantom class!
+Warning: com.hexin.android.component.fenshitab.BaseTabItem is a phantom class!
+Warning: com.hexin.android.component.fenshitab.TabLayout is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.FenshiBanKuaiGGAnalyse is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.FenshiGGNewsComponent is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.FenshiGGYanBaoComponent is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.FenshiNewsGroupBase is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.FundFlowComponent is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.PanKouBiaoDiQuanInfoComment is a phantom class!
+Warning: com.hexin.android.component.fenshitab.component.PanKouIndustryComponent is a phantom class!
+Warning: com.hexin.android.component.firstpage.AbsFirstpageNode is a phantom class!
+Warning: com.hexin.android.component.firstpage.AdsYunYing is a phantom class!
+Warning: com.hexin.android.component.firstpage.BKNode is a phantom class!
+Warning: com.hexin.android.component.firstpage.EntryList is a phantom class!
+Warning: com.hexin.android.component.firstpage.FirstPage is a phantom class!
+Warning: com.hexin.android.component.firstpage.FirstPageSwitchDayNightAnimation is a phantom class!
+Warning: com.hexin.android.component.firstpage.FirstpageNodeCreator is a phantom class!
+Warning: com.hexin.android.component.firstpage.LGTNode is a phantom class!
+Warning: com.hexin.android.component.firstpage.TZCKZixunNode is a phantom class!
+Warning: com.hexin.android.component.firstpage.VIPEntryNode is a phantom class!
+Warning: com.hexin.android.component.hangqing.BankuaiPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.DigitalTextView is a phantom class!
+Warning: com.hexin.android.component.hangqing.ExpandablePage is a phantom class!
+Warning: com.hexin.android.component.hangqing.GangGuPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.GangMeiGuPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.GuzhiPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingAHTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingBanKuaiGGAnalyse is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingBankuaiGGTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingBankuaiGGTableLayout is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingDianBoXuanGuTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingHGTTitle is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingHKMainView is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingHKTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingJieDuanTJTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingMarketTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingSelfCodeTableContainer is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingSelfcodeTableLandscape is a phantom class!
+Warning: com.hexin.android.component.hangqing.HangQingTJGJSTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.HushenPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.MeiGuPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.QitaPage is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.QiQuanAnimationLabel is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.QiQuanBasePageButton is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.QiQuanTTypeHeadLine is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.QiQuanTTypePageContainer is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.RollerShaftExpandableListView is a phantom class!
+Warning: com.hexin.android.component.firstpage.FirstpageVerticalScroller is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.RollerShaftTable is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.RollerShaftItemLineView is a phantom class!
+Warning: com.hexin.android.component.share.SinaWeiBoShare is a phantom class!
+Warning: com.hexin.android.component.share.SinaWeiBoShareEvaluateView is a phantom class!
+Warning: com.hexin.android.component.v14.F10LinearLayout is a phantom class!
+Warning: com.hexin.android.component.v14.PageDecision is a phantom class!
+Warning: com.hexin.android.component.v14.PageDecisionRow is a phantom class!
+Warning: com.hexin.android.component.v14.SystemConfig is a phantom class!
+Warning: com.hexin.android.view.HXSwitchButton is a phantom class!
+Warning: com.hexin.android.component.v14.SystemSettingLoginLength is a phantom class!
+Warning: com.hexin.android.component.v14.SystemSettingServierselect is a phantom class!
+Warning: com.hexin.android.component.webjs.HXGobackBrowser is a phantom class!
+Warning: com.hexin.android.component.webjs.HXJumpApplicationJSInterface$JumpApplicationData is a phantom class!
+Warning: com.hexin.android.component.webjs.HXJumpApplicationJSInterface is a phantom class!
+Warning: com.hexin.android.component.webjs.HttpGetFunc is a phantom class!
+Warning: com.hexin.android.component.webjs.QuitAccount is a phantom class!
+Warning: com.hexin.android.component.webjs.SocketCCDataDownload is a phantom class!
+Warning: com.hexin.android.component.webjs.SocketCCDataUpload is a phantom class!
+Warning: com.hexin.android.lgt.CommentView is a phantom class!
+Warning: com.hexin.android.lgt.FenshiListBaseContent is a phantom class!
+Warning: com.hexin.android.lgt.LgtAlertContent is a phantom class!
+Warning: com.hexin.android.lgt.LgtContent is a phantom class!
+Warning: com.hexin.android.lgt.LgtContentBottomView is a phantom class!
+Warning: com.hexin.android.lgt.LgtEditText is a phantom class!
+Warning: com.hexin.android.lgt.PostView is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$Page is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$PageInfo is a phantom class!
+Warning: android.graphics.pdf.PdfDocument is a phantom class!
+Warning: android.hardware.display.DisplayManager is a phantom class!
+Warning: android.media.RemoteControlClient$OnGetPlaybackPositionListener is a phantom class!
+Warning: android.media.RemoteControlClient$OnPlaybackPositionUpdateListener is a phantom class!
+Warning: android.print.PageRange is a phantom class!
+Warning: android.print.PrintAttributes$Builder is a phantom class!
+Warning: android.print.PrintAttributes$MediaSize is a phantom class!
+Warning: android.print.PrintAttributes is a phantom class!
+Warning: android.print.PrintDocumentAdapter$LayoutResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter$WriteResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter is a phantom class!
+Warning: android.print.PrintDocumentInfo$Builder is a phantom class!
+Warning: android.print.PrintDocumentInfo is a phantom class!
+Warning: android.print.PrintJob is a phantom class!
+Warning: android.print.PrintManager is a phantom class!
+Warning: android.print.pdf.PrintedPdfDocument is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowAttachListener is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowFocusChangeListener is a phantom class!
+Warning: android.webkit.JavascriptInterface is a phantom class!
+Warning: com.hexin.android.view.TitleBar is a phantom class!
+Warning: com.hexin.android.view.TabWidget is a phantom class!
+Warning: com.hexin.android.view.inputmethod.CandidateView is a phantom class!
+Warning: com.hexin.android.component.ad.OpeningAdvertising$AdLoadFinishLister is a phantom class!
+Warning: com.hexin.android.component.ad.OpeningAdvertising is a phantom class!
+Warning: com.hexin.android.supprtthirdqs.aidl.IQSCommunicationService is a phantom class!
+Warning: com.hexin.android.supprtthirdqs.aidl.IQSStateService is a phantom class!
+Warning: com.hexin.android.supprtthirdqs.aidl.QSCommunicationService is a phantom class!
+Warning: com.hexin.android.view.ButtonBar is a phantom class!
+Warning: com.hexin.android.view.ViewScroller is a phantom class!
+Warning: com.hexin.android.component.AdView is a phantom class!
+Warning: com.hexin.android.view.AndroidSelfDrawTable is a phantom class!
+Warning: com.hexin.android.view.AndroidSlidingDrawerBase is a phantom class!
+Warning: com.hexin.android.view.BindMobileConfirm is a phantom class!
+Warning: com.hexin.android.view.CalenderView is a phantom class!
+Warning: com.hexin.android.view.CustomShowTypeList is a phantom class!
+Warning: com.hexin.android.view.FenshiListBaseContent is a phantom class!
+Warning: com.hexin.android.view.GuideView is a phantom class!
+Warning: com.hexin.android.view.GuideView$MyPagerAdapter is a phantom class!
+Warning: com.hexin.android.view.KlineToolBarPopView is a phantom class!
+Warning: com.hexin.android.view.KlineVerticalToolBar is a phantom class!
+Warning: com.hexin.android.view.ParamSettingToolBar is a phantom class!
+Warning: com.hexin.android.view.PeroidTechL2ButtonList is a phantom class!
+Warning: com.hexin.android.view.PositiveDigtalEditText is a phantom class!
+Warning: com.hexin.android.view.PullToRefreshExpandableListView is a phantom class!
+Warning: com.hexin.android.view.SimpleNaviBar is a phantom class!
+Warning: com.hexin.android.view.SimpleTable is a phantom class!
+Warning: com.hexin.android.view.TitleByOnClickList is a phantom class!
+Warning: com.hexin.android.view.TouchInterceptor is a phantom class!
+Warning: com.hexin.android.view.swipe.HXSlideListView is a phantom class!
+Warning: com.hexin.android.view.swipe.SlideListView is a phantom class!
+Warning: com.hexin.android.view.swipe.SlideViewChiCang is a phantom class!
+Warning: com.hexin.android.component.ColumnDragableTable is a phantom class!
+Warning: com.hexin.android.view.PageIndex is a phantom class!
+Warning: com.hexin.android.component.StockWDMMView is a phantom class!
+Warning: com.hexin.android.component.WeituoLoginMoni is a phantom class!
+Warning: com.hexin.android.component.HQErrorView is a phantom class!
+Warning: com.hexin.android.component.curve.view.CurveSurfaceView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.CustomScrollView is a phantom class!
+Warning: com.hexin.android.view.AndroidSlidingSpace is a phantom class!
+Warning: com.hexin.android.component.SlidePageDrawer is a phantom class!
+Warning: com.hexin.android.view.HexinBaseLayout is a phantom class!
+Warning: com.hexin.android.component.FontSettingLayout is a phantom class!
+Warning: com.hexin.android.view.LaunchView is a phantom class!
+Warning: com.hexin.android.component.ad.OpeningAdvertising$ShowOpenAdDataModel is a phantom class!
+Warning: com.hexin.android.view.HexinLandBaseLayout is a phantom class!
+Warning: com.hexin.android.component.Browser is a phantom class!
+Warning: com.hexin.android.component.SwitchServerView is a phantom class!
+Warning: com.hexin.android.component.HangQingInfo is a phantom class!
+Warning: com.hexin.android.component.MyTradeCaptial is a phantom class!
+Warning: com.hexin.android.component.CapitalStockListTable is a phantom class!
+Warning: com.hexin.android.component.MyTradeCapitalYK is a phantom class!
+Warning: com.ifund.hexin.android.bank.ParentFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.BaseActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.Browser is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.IFundTabActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.MoreActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.BaseFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.BaseFragment$onListItemMenuClick is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.DtbFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.FundSearchFragment is a phantom class!
+Warning: com.ifund.hexin.android.manager.RecommendFundsRequest$onRequestRecommendFundsListener is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.HomeFragment is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageMessages$HomePageMessageListener is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageHotInvestor$HomeHotInvestorListener is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageHotInvestor$HomeHotInvestorItem is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageMessages$HomePageMessageBean is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageHotInvestor$HomeHotItem is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.LcbFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.LcbHelpFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.MyFundFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.NewFundForecastFragment is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewFundOperation$NewFundOperationListener is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.NewFundFragment is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewFundOperation$NewFundOperationBean is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalHomeMoneyFundFragment is a phantom class!
+Warning: com.ifund.hexin.android.manager.PersonalBasicData is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalHomeNewFundFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalHomeNormalFundFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalHomeProcessFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalProductDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalProductWebFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.PersonalProductZcpzFragment is a phantom class!
+Warning: com.hexin.android.component.About is a phantom class!
+Warning: com.hexin.android.component.AdSetting is a phantom class!
+Warning: com.hexin.android.component.AddSales is a phantom class!
+Warning: com.hexin.android.component.AddTech is a phantom class!
+Warning: com.hexin.android.component.AdsContainer is a phantom class!
+Warning: com.hexin.android.component.AnimationLabel is a phantom class!
+Warning: com.hexin.android.component.BaseLoginAndRegister is a phantom class!
+Warning: com.hexin.android.component.CJMXTextView is a phantom class!
+Warning: com.hexin.android.component.CJTJList is a phantom class!
+Warning: com.hexin.android.component.CJTJListItem is a phantom class!
+Warning: com.hexin.android.component.CJTJView is a phantom class!
+Warning: com.hexin.android.component.CheckPreWarningListView is a phantom class!
+Warning: com.hexin.android.component.ChicangPk is a phantom class!
+Warning: com.hexin.android.component.ChicangSetLayout is a phantom class!
+Warning: com.hexin.android.component.ChicangSetTable is a phantom class!
+Warning: com.hexin.android.component.ChicangSettingItemView is a phantom class!
+Warning: com.hexin.android.component.ChooseSaleArea is a phantom class!
+Warning: com.hexin.android.component.ChooseSaleYYB is a phantom class!
+Warning: com.hexin.android.component.CloudWebview is a phantom class!
+Warning: com.hexin.android.component.CollectionListView is a phantom class!
+Warning: com.hexin.android.component.ColumnDragableExpandableListView is a phantom class!
+Warning: com.hexin.android.component.ColumnDragableExpandableListViewTable is a phantom class!
+Warning: com.hexin.android.component.ColumnDragableListView is a phantom class!
+Warning: com.hexin.android.component.CommonBrowserLayout is a phantom class!
+Warning: com.hexin.android.component.CompanyNoticeContent is a phantom class!
+Warning: com.hexin.android.component.CurveHorizontalScrollView is a phantom class!
+Warning: com.hexin.android.component.DownloadProgress is a phantom class!
+Warning: com.hexin.android.component.DragableListViewItem is a phantom class!
+Warning: com.hexin.android.component.DragableListViewItemExt is a phantom class!
+Warning: com.hexin.android.component.ElectricSetting is a phantom class!
+Warning: com.hexin.android.component.FeedBackListPage is a phantom class!
+Warning: com.hexin.android.component.FeedBackSendpage is a phantom class!
+Warning: com.hexin.android.component.FenshiPriceGGRight is a phantom class!
+Warning: com.hexin.android.component.FileManagerList is a phantom class!
+Warning: com.hexin.android.component.FirstPageNaviBar is a phantom class!
+Warning: com.hexin.android.component.FiveGearsTable is a phantom class!
+Warning: com.hexin.android.component.GGBasePageButton is a phantom class!
+Warning: com.hexin.android.component.GGButton is a phantom class!
+Warning: com.hexin.android.component.GGPriceButtonBar is a phantom class!
+Warning: com.hexin.android.component.GGStockPrice is a phantom class!
+Warning: com.hexin.android.component.GuzhiBottom is a phantom class!
+Warning: com.hexin.android.component.HXRecommendApp is a phantom class!
+Warning: com.hexin.android.component.HangQingPageQueueNavBar is a phantom class!
+Warning: com.hexin.android.component.HotRecommend is a phantom class!
+Warning: com.hexin.android.component.IndexBarHandle is a phantom class!
+Warning: com.hexin.android.component.IndexSetting is a phantom class!
+Warning: com.hexin.android.component.IndexSettingParamItem is a phantom class!
+Warning: com.hexin.android.component.InnerLetterListView is a phantom class!
+Warning: com.hexin.android.component.JueceBrowser is a phantom class!
+Warning: com.hexin.android.component.Level2Grade500 is a phantom class!
+Warning: com.hexin.android.component.LightSettingLayout is a phantom class!
+Warning: com.hexin.android.component.Login is a phantom class!
+Warning: com.hexin.android.component.MessageCenterNew is a phantom class!
+Warning: com.hexin.android.component.MultiPageQueueNaviBar is a phantom class!
+Warning: com.hexin.android.component.MyTechSetting is a phantom class!
+Warning: com.hexin.android.component.MyTechSettingItemView is a phantom class!
+Warning: com.hexin.android.component.MyTradeCapitalSelectInvest is a phantom class!
+Warning: com.hexin.android.component.MyTradeCaptialPage is a phantom class!
+Warning: com.hexin.android.component.NewsBase is a phantom class!
+Warning: com.hexin.android.component.NewsColumn is a phantom class!
+Warning: com.hexin.android.component.NewsGroup is a phantom class!
+Warning: com.hexin.android.component.NewsTouTiao is a phantom class!
+Warning: com.hexin.android.component.NewsTouTiaoAdsView$ViewPageAdapter is a phantom class!
+Warning: com.hexin.android.component.NewsTouTiaoAdsView is a phantom class!
+Warning: com.hexin.android.component.NewsWarningContentPage is a phantom class!
+Warning: com.hexin.android.component.NewsZXContentPage is a phantom class!
+Warning: com.hexin.android.component.OrderList is a phantom class!
+Warning: com.hexin.android.component.PageIndex is a phantom class!
+Warning: com.hexin.android.component.PageSelectStock is a phantom class!
+Warning: com.hexin.android.component.ParamSetting is a phantom class!
+Warning: com.hexin.android.component.PrewraningAddCondition is a phantom class!
+Warning: com.hexin.android.component.PrewraningSelectType is a phantom class!
+Warning: com.hexin.android.component.PriceGZRight is a phantom class!
+Warning: com.hexin.android.component.PriceHGTBottom is a phantom class!
+Warning: com.hexin.android.component.PriceHGTRight is a phantom class!
+Warning: com.hexin.android.component.PushSetting is a phantom class!
+Warning: com.hexin.android.component.QuickLogin is a phantom class!
+Warning: com.hexin.android.component.RegisterAndForgetpwdBrowserLayout is a phantom class!
+Warning: com.hexin.android.component.SalesEdit is a phantom class!
+Warning: com.hexin.android.component.SalesItem is a phantom class!
+Warning: com.hexin.android.component.SalesList is a phantom class!
+Warning: com.hexin.android.component.SalesSetting is a phantom class!
+Warning: com.hexin.android.component.SalesSettingListItem is a phantom class!
+Warning: com.hexin.android.component.SelfcodeSetting is a phantom class!
+Warning: com.hexin.android.component.SelfstockSettingItemView is a phantom class!
+Warning: com.hexin.android.component.SendSMSPayLevel2 is a phantom class!
+Warning: com.hexin.android.component.SendSMSPayLevel2ThreeStep is a phantom class!
+Warning: com.hexin.android.component.SimpleBrowserList is a phantom class!
+Warning: com.hexin.android.component.SimpleIndustry is a phantom class!
+Warning: com.hexin.android.component.SimplePageQueueNaviBar is a phantom class!
+Warning: com.hexin.android.component.SmsRegister is a phantom class!
+Warning: com.hexin.android.component.StockBottom is a phantom class!
+Warning: com.hexin.android.component.StockCJMX is a phantom class!
+Warning: com.hexin.android.component.StockMMDL is a phantom class!
+Warning: com.hexin.android.component.StockPoolWebClinet is a phantom class!
+Warning: com.hexin.android.component.StockSDMM is a phantom class!
+Warning: com.hexin.android.component.StockSearch is a phantom class!
+Warning: com.hexin.android.component.TableHeader is a phantom class!
+Warning: com.hexin.android.component.TejiBuyDescriptionDialog is a phantom class!
+Warning: com.hexin.android.component.TejiDescriptionDialog is a phantom class!
+Warning: com.hexin.android.component.TejiJCALWebView is a phantom class!
+Warning: com.hexin.android.component.TejiList is a phantom class!
+Warning: com.hexin.android.component.TitleBarLeftPopMoreView is a phantom class!
+Warning: com.hexin.android.component.TitleBarMoreItemUnit is a phantom class!
+Warning: com.hexin.android.component.TitleBarTextView is a phantom class!
+Warning: com.hexin.android.component.USPriceHGTRight is a phantom class!
+Warning: com.hexin.android.component.UpdateForce is a phantom class!
+Warning: com.hexin.android.component.UpdateForceFirst is a phantom class!
+Warning: com.hexin.android.component.UpdateFriendly is a phantom class!
+Warning: com.hexin.android.component.UserInfoComplete is a phantom class!
+Warning: com.hexin.android.component.UserInfoWebView is a phantom class!
+Warning: com.hexin.android.component.ViewSearch is a phantom class!
+Warning: com.hexin.android.component.WheelView is a phantom class!
+Warning: com.hexin.android.component.ZTAnalysisPage is a phantom class!
+Warning: com.hexin.android.component.ZhenguBrowser is a phantom class!
+Warning: com.hexin.android.component.ZhenguBrowserList is a phantom class!
+Warning: com.hexin.android.component.ZiXunPageQueueNavBar is a phantom class!
+Warning: com.hexin.android.component.ad.ChannelAd is a phantom class!
+Warning: com.hexin.android.component.ad.HXCommonEntryConfig is a phantom class!
+Warning: com.hexin.android.component.ad.HxBannerAdManager$BannerAdModel is a phantom class!
+Warning: com.hexin.android.component.ad.HxBannerAdManager$IChangeBannerAdShowStatus is a phantom class!
+Warning: com.hexin.android.component.ad.HxBannerAdManager is a phantom class!
+Warning: com.hexin.android.component.curve.view.CurveColorView is a phantom class!
+Warning: com.hexin.android.component.curve.view.FenshiOverLayComponent is a phantom class!
+Warning: com.hexin.android.component.curve.view.HKFenshiHorizontalPage is a phantom class!
+Warning: com.hexin.android.component.fenshitab.FenshiFrameLayout is a phantom class!
+Warning: com.hexin.android.component.fenshitab.FenshiOutScrollView is a phantom class!
+Warning: com.hexin.android.component.fenshitab.TabBrower is a phantom class!
+Warning: com.hexin.android.component.fenshitab.TabContentView is a phantom class!
+Warning: com.hexin.android.component.fenshitab.view.FundFlowView is a phantom class!
+Warning: com.hexin.android.component.fenshitab.view.SimpleIndexView is a phantom class!
+Warning: com.hexin.android.component.hangqing.qiquan.RollerShaftItem is a phantom class!
+Warning: com.hexin.android.component.share.WeixinDialog2 is a phantom class!
+Warning: com.hexin.android.component.share.WeixinDialog is a phantom class!
+Warning: com.hexin.android.component.webjs.HangqingServerInfoNetwork$OnHangqingServerInfoReceiveListener is a phantom class!
+Warning: com.hexin.android.feedback.FeedBackView is a phantom class!
+Warning: com.hexin.android.view.AbstractScrollView is a phantom class!
+Warning: com.hexin.android.view.BindMobile is a phantom class!
+Warning: com.hexin.android.view.BrightnessBar is a phantom class!
+Warning: com.hexin.android.view.HXCapitalScrollView is a phantom class!
+Warning: com.hexin.android.view.IndexBarMarquee is a phantom class!
+Warning: com.hexin.android.view.ListMenuItem is a phantom class!
+Warning: com.hexin.android.view.RedTipTextView is a phantom class!
+Warning: com.hexin.android.view.SwitchView is a phantom class!
+Warning: com.hexin.android.view.TextViewBar is a phantom class!
+Warning: com.hexin.android.view.inputmethod.HexinKeyboardView is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.PersonalFundActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.RevenueRankFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.SlidingMenuFragment$FundCompanyExpandAdapter is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.SlidingMenuFragment$OnCheckListener is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.SlidingMenuFragment$SlidingMenuResetListener is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.fragment.SlidingMenuFragment is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.BarChart is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.ChartView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.DtbFundViewPagerItem is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.DtbListView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.GzChartView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.LcbFundViewPagerItem is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.LcbListView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.NewFundForeCastListView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.NewFundListView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.PieChart is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.RevenueRankListView is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.RevenueRankViewPagerItem is a phantom class!
+Warning: com.ifund.hexin.android.bank.widget.TabPageIndicator is a phantom class!
+Warning: com.ifund.hexin.android.communication.middle.JavaScripInterface is a phantom class!
+Warning: com.ifund.hexin.android.communication.middle.MiddleProxy is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.activity.BaseActivity is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.activity.FundTradeActivity is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.AddBankCardFristFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.AddBankCardSecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.AddBankCardThirdFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.BaseFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.BonusDeatilFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.BuyFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.BuySecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.BuyThirdFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ConvertFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ConvertSecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ConvertSuccessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DividendFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtDetailDisposeFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtDetailListFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtModifyTradeFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtModifyTradeSecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtSecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.DtThirdFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ForgetPasswordBankCardFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ForgetPasswordCheckPhoneFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ForgetPasswordResetPwdFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ForgetPasswordSendMsgFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ForgetPasswordUserInfoFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.FundValueDailyIncomeFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.FundValueDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.InvestmentStyleAssessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.InvestmentStyleResultFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.LcbRedemptionFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.LoginFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.MyAccountBankCardFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.MyAccountDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.MyAccountFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountCityFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountHelpFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountPhoneCheckFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountSecondStep is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountSuccessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountThirdStep is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.OpenAccountUnSupportSuccessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.PlanListFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.RedemptionFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.RedemptionSuccessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.RenBuySuccessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.ShenBuySuccessFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SingleFundDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybEnchashmentFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybEnchashmentSecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybEnchashmentThirdFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybIncomeDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybIntroductionFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybRechargeFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybRechargeSecondFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybRechargeThirdFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybSumTotalVolFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.SybTradeDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TipFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TradeConvertDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TradeDtDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TradeRedemptionDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TradeReqFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TradeShenBuyDetailFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.TradeTipFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.fragment.UpdatePasswordFragment is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.BonusDetailListView is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.FormatEditText is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.HistoryProfitListView is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.IncomeChartView is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.NotCanScrollViewPager is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.RunnerTextView is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.SingleFundDetailListView is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.SybTradeDetailListView is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.view.TradeReqListView is a phantom class!
+Warning: com.ifund.hexin.android.manager.AppUpgradeService is a phantom class!
+Warning: com.ifund.hexin.android.manager.AsyncImageLoader$ImageCallback is a phantom class!
+Warning: com.ifund.hexin.android.manager.AsyncImageLoader is a phantom class!
+Warning: com.ifund.hexin.android.manager.DtbDetail is a phantom class!
+Warning: com.ifund.hexin.android.manager.FundInfo is a phantom class!
+Warning: com.ifund.hexin.android.manager.FundSearchHistory is a phantom class!
+Warning: com.ifund.hexin.android.manager.HexinFundDataBase is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageHotInvestor is a phantom class!
+Warning: com.ifund.hexin.android.manager.HomePageMessages is a phantom class!
+Warning: com.ifund.hexin.android.manager.LcbDetail is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewFundObj is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewFundOperation is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewUserGuideRequest$NewUserGuideBean is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewUserGuideRequest$onRequestNewUserGuideListener is a phantom class!
+Warning: com.ifund.hexin.android.manager.NewUserGuideRequest is a phantom class!
+Warning: com.ifund.hexin.android.manager.OperationProtocol is a phantom class!
+Warning: com.ifund.hexin.android.manager.PersonalFundRequest$PersonalFundRequestListener is a phantom class!
+Warning: com.ifund.hexin.android.manager.PersonalFundRequest is a phantom class!
+Warning: com.ifund.hexin.android.manager.RecommendFundsRequest is a phantom class!
+Warning: com.ifund.hexin.android.manager.RevenueRank is a phantom class!
+Warning: com.ifund.hexin.android.manager.ShareContent is a phantom class!
+Warning: com.ifund.hexin.fund.db.table.Id is a phantom class!
+Warning: com.ifund.hexin.fund.db.table.KeyValue is a phantom class!
+Warning: com.ifund.hexin.fund.db.table.ManyToOne is a phantom class!
+Warning: com.ifund.hexin.fund.db.table.OneToMany is a phantom class!
+Warning: com.ifund.hexin.fund.db.table.Property is a phantom class!
+Warning: com.ifund.hexin.fund.db.table.TableInfo is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.DtbActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.FundSearchActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.DailyFundActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.MyFundActivity is a phantom class!
+Warning: com.hexin.android.weituo.component.SalesDepartmentListActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.RevenueRankActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.HotSaleRankActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.NewFundActivity is a phantom class!
+Warning: com.unionpay.uppay.PayActivityEx is a phantom class!
+Warning: com.hexin.android.lgt.ShowBigImgActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.LcbHelpActivity is a phantom class!
+Warning: com.ifund.hexin.android.bank.ifund.activity.LcbActivity is a phantom class!
+Warning: com.ifund.hexin.android.fundtrade.activity.InvestmentStyleActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 25.8 seconds.
+[Spark] Solution found in 25.8 seconds.
+Removed 2122 call edges
+Found a flow to sink specialinvoke $r5.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>("imei", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String f(android.content.Context)>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String f(android.content.Context)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink $r10 = interfaceinvoke $r10.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("is_read", "true") on line 326, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("keyword", $r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<com.hexin.plat.android.LandscapeActivity: void setResult(int,android.content.Intent)>(1, $r9) on line 294, from the following sources:
+	- $r6 = virtualinvoke $r0.<com.hexin.plat.android.LandscapeActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("stockMarket") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("stockCode") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("stockName") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("landscapeFrameId") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i0) on line 172, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("CommunicationManager", $r0) on line 328, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("env_type", $i0), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r2, $i0) on line 354, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <cm: java.lang.String f()>)
+Found a flow to sink $r10 = interfaceinvoke $r10.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("wxts_content", $r4) on line 326, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<com.hexin.plat.android.LandscapeActivity: void startActivity(android.content.Intent)>($r1) on line 369, from the following sources:
+	- $r6 = virtualinvoke $r0.<com.hexin.plat.android.LandscapeActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("stockMarket") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("stockName") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("stockCode") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("landscapeFrameId") (in <com.hexin.plat.android.LandscapeActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1) on line 650, from the following sources:
+	- $r11 = virtualinvoke $r0.<com.hexin.plat.android.WebViewActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+	- $r12 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("param") (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[])>($r1) on line 700, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1) on line 140, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r5 = interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("devId", $r3), from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1) on line 179, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r10 = interfaceinvoke $r10.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("wxtsid", $r1) on line 326, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("CommunicationManager", $r0) on line 322, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("count", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("id", $r3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i1) on line 240, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r1), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 320, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.hexin.plat.android.LoginAndRegisterActivity: void a(int,java.lang.Object,int)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("uuid", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i1) on line 242, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("CommunicationManager", $r0) on line 325, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink $r12 = interfaceinvoke $r12.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("device_id", $r10), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int)>(0) (in <com.unionpay.mobile.android.upviews.b: void b(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putInt(java.lang.String,int)>("ll_y", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("ru_y", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ext_chid") (in <com.xiaomi.smack.packet.d: void <init>(android.os.Bundle)>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("pagenum", 0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r17 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity,java.lang.String)>($r11, "utf-8") (in <com.baidu.location.g$4: void run()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("com.xiaomi.common.Network", $r5), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String f(android.content.Context)>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String f(android.content.Context)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r4, $r3), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("cuid", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.a.b.c.b$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("openSDK_LOG", $r3) on line 95, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.open.yyb.AppbarActivity: android.content.Intent getIntent()>() (in <com.tencent.open.yyb.AppbarActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.open.yyb.AppbarActivity: android.content.Intent getIntent()>() (in <com.tencent.open.yyb.AppbarActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_identifier_") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r5.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>("appversion", $r1), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>($r1, $i0, $i1), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1) on line 179, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1) on line 107, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r11 = virtualinvoke $r0.<com.hexin.plat.android.WebViewActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <cm: java.lang.String f()>)
+	- $r12 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("param") (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("level", 12), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("type", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("cuid", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.a.b.c.b$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("app_id", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i1) on line 241, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r1, $r4), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r2, $r3) on line 335, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PcMessage") (in <com.hexin.plat.android.PcAutoLoginService: int onStartCommand(android.content.Intent,int,int)>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("CommunicationManager", $r0) on line 316, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("security", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("access_token", $r8) on line 82, from the following sources:
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("access_token") (in <com.tencent.tauth.AuthActivity: void execAuthCallback(android.os.Bundle,java.lang.String)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("im", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.d.b: java.lang.String k(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("com.xiaomi.common.Network", $r5), from the following sources:
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("token", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("i", $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.location.j$b: java.lang.String do(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("package_name", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putInt(java.lang.String,int)>("ru_x", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r8, $r3), from the following sources:
+	- $r4 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r2, 0, $r9, 134217728) (in <com.baidu.location.f$c: void <init>(com.baidu.location.f,android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("loc_x", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("image_height", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r14.<java.io.OutputStream: void write(byte[],int,int)>($r13, 0, $i1), from the following sources:
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String f(android.content.Context)>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String f(android.content.Context)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("app_token", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1) on line 519, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r10 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r13) (in <com.wbtech.ums.common.NetworkUitlity: com.wbtech.ums.objects.MyMessage post(java.lang.String,java.lang.String)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("loc_y", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i0) on line 171, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putFloat(java.lang.String,float)>("anchor_x", $f0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink $r10 = interfaceinvoke $r10.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("username", $r2) on line 326, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putInt(java.lang.String,int)>("layer_addr", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("device_id", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2) on line 202, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("sp_key_has_show_feedback", 1) on line 481, from the following sources:
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+Found a flow to sink virtualinvoke $r9.<android.os.Handler: boolean sendMessage(android.os.Message)>($r10) on line 312, from the following sources:
+	- $r10 = virtualinvoke $r9.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.hexin.android.service.update.AppUpgradeService: void a(int,aou,aon)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("location_x", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("im", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.d.b: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("ll_x", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r8 = virtualinvoke $r6.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r7, null, null, null, null) on line 412, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[])>($r6), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent)>($r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("error", $r1) on line 65, from the following sources:
+	- $r10 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r13) (in <com.wbtech.ums.common.NetworkUitlity: com.wbtech.ums.objects.MyMessage post(java.lang.String,java.lang.String)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("image_data", $r2), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r9.<java.io.OutputStream: void write(byte[],int,int)>($r8, 0, $i1) on line 244, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r0, $r4) on line 151, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.tauth.AuthActivity: android.content.Intent getIntent()>() (in <com.tencent.tauth.AuthActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("mapbound", $r6), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("image_width", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1) on line 137, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1) on line 161, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.hexin.plat.android.WebViewActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r12 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("param") (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1) on line 158, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.hexin.plat.android.WebViewActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r12 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("param") (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1) on line 182, from the following sources:
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <chz: cib b(java.lang.String,java.util.HashMap,boolean,int,int)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("location_y", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putInt(java.lang.String,int)>("ll_x", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("ru_x", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r1, $r11), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1) on line 104, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r11 = virtualinvoke $r0.<com.hexin.plat.android.WebViewActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <cm: java.lang.String f()>)
+	- $r12 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("param") (in <com.hexin.plat.android.WebViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r7.<android.os.Handler: boolean sendMessage(android.os.Message)>($r6) on line 1587, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putFloat(java.lang.String,float)>("anchor_y", $f0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke r35.<java.net.URL: void <init>(java.lang.String)>($r3) on line 224, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxapi_sendauth_resp_token") (in <com.tencent.mm.sdk.modelmsg.SendAuth$Resp: void fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1) on line 200, from the following sources:
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r2) on line 2875, from the following sources:
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r3) on line 2866, from the following sources:
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("image_hashcode", $i0), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putInt(java.lang.String,int)>("ru_y", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("cityid", 1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i0) on line 239, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("CommunicationManager", $r0) on line 319, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[],int,int)>($r1, $i0, $i1) on line 101, from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[])>($r6), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.d.b: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putInt(java.lang.String,int)>("ll_y", $i3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1) on line 203, from the following sources:
+	- $r1 = virtualinvoke $r0.<cx.hell.android.pdfview.OpenFileActivity: android.content.Intent getIntent()>() (in <cx.hell.android.pdfview.OpenFileActivity: cx.hell.android.lib.pdf.PDF getPDF()>)
+	- $r7 = virtualinvoke $r6.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.hexin.app.CbasReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("extparams", $r6), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void d()>)
+	- $r2 = virtualinvoke $r0.<com.hexin.android.weituo.component.SalesDepartmentListMapActivity: android.content.Intent getIntent()>() (in <com.hexin.android.weituo.component.SalesDepartmentListMapActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r4), from the following sources:
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_message_ext") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_title") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_message_action") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("_wxobject_thumbdata") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r0.<android.os.Bundle: int getInt(java.lang.String)>("_wxobject_sdkVer") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_description") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_mediatagname") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r12), from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.WelcomeFragment: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.IntroductionFragment: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("QSINFO") (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.hexin.plat.android.ThirdQsAppTransitionActivity: android.content.Intent getIntent()>() (in <com.hexin.plat.android.ThirdQsAppTransitionActivity: void onCreate(android.os.Bundle)>)
+Analysis has run for 63.448990408 seconds

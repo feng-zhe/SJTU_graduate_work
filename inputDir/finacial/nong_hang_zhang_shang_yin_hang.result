@@ -1,0 +1,40 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/nong_hang_zhang_shang_yin_hang.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.android.bankabc.MapViewAndroid is a phantom class!
+Warning: com.abchina.mobile.pullmsg.MsgBoard is a phantom class!
+Warning: com.baidu.location.f is a phantom class!
+Warning: com.wordandexcel.ViewFile is a phantom class!
+Warning: com.artifex.mupdf.OutlineActivity is a phantom class!
+Warning: com.bankabc.gesturelock.SettingLockActivity is a phantom class!
+Warning: com.rytong.qrcode.zxing.activity.CaptureActivity is a phantom class!
+Warning: com.bankabc.gesturelock.DetectLockActivity is a phantom class!
+Warning: com.umeng.socialize.view.ShareActivity is a phantom class!
+Warning: com.android.bankabc.UpdateApkService is a phantom class!
+Warning: com.rytong.tools.androidpn.client.ExamineNotificationService is a phantom class!
+Warning: com.android.bankabc.ContactActivity is a phantom class!
+Warning: com.android.bankabc.ActionService is a phantom class!
+Warning: com.abchina.mobile.pullmsg.MsgService is a phantom class!
+Warning: com.android.bankabc.NotificationSettingsActivity is a phantom class!
+Warning: com.ppt.PptRead is a phantom class!
+Warning: com.rytong.track.control.TrackService is a phantom class!
+Warning: com.android.bankabc.EMPView is a phantom class!
+Warning: com.artifex.mupdf.MuPDFActivity is a phantom class!
+Warning: com.android.bankabc.wxapi.WXEntryActivity is a phantom class!
+Warning: com.wordandexcel.ExcelRead is a phantom class!
+Warning: com.android.bankabc.ABCIntentService is a phantom class!
+Warning: com.android.bankabc.GuideActivity is a phantom class!
+Warning: com.android.bankabc.GuideActivityNew is a phantom class!
+Warning: com.andorid.shu.love.BookActivity is a phantom class!
+Warning: com.rytong.tools.androidpn.client.NotificationService is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Removed 7 call edges
+Analysis has run for 1.942465658 seconds

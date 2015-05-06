@@ -1,0 +1,637 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/kuai_dai.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+get type from 'Z'
+Warning: com.google.android.gms.ads.identifier.AdvertisingIdClient$Info is a phantom class!
+Warning: com.google.android.gms.ads.identifier.AdvertisingIdClient is a phantom class!
+Warning: com.google.android.gms.common.GooglePlayServicesNotAvailableException is a phantom class!
+Warning: com.google.android.gms.common.GooglePlayServicesRepairableException is a phantom class!
+Warning: com.google.android.gms.common.GooglePlayServicesUtil is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: com.sun.jdi.Bootstrap is a phantom class!
+Warning: com.sun.jdi.ReferenceType is a phantom class!
+Warning: com.sun.jdi.VirtualMachine is a phantom class!
+Warning: com.sun.jdi.VirtualMachineManager is a phantom class!
+Warning: com.sun.jdi.connect.AttachingConnector is a phantom class!
+Warning: com.sun.jdi.connect.Connector$Argument is a phantom class!
+Warning: com.sun.jdi.connect.Connector is a phantom class!
+Warning: com.sun.jdi.connect.IllegalConnectorArgumentsException is a phantom class!
+Warning: com.sun.jdi.event.Event is a phantom class!
+Warning: com.sun.jdi.event.EventIterator is a phantom class!
+Warning: com.sun.jdi.event.EventQueue is a phantom class!
+Warning: com.sun.jdi.event.EventSet is a phantom class!
+Warning: com.sun.jdi.event.MethodEntryEvent is a phantom class!
+Warning: com.sun.jdi.request.EventRequest is a phantom class!
+Warning: com.sun.jdi.request.EventRequestManager is a phantom class!
+Warning: com.sun.jdi.request.MethodEntryRequest is a phantom class!
+Warning: java.applet.Applet is a phantom class!
+Warning: javax.tools.DiagnosticCollector is a phantom class!
+Warning: javax.tools.DiagnosticListener is a phantom class!
+Warning: javax.tools.JavaCompiler is a phantom class!
+Warning: javax.tools.JavaFileManager$Location is a phantom class!
+Warning: javax.tools.JavaFileManager is a phantom class!
+Warning: javax.tools.JavaFileObject$Kind is a phantom class!
+Warning: javax.tools.JavaFileObject is a phantom class!
+Warning: javax.tools.StandardJavaFileManager is a phantom class!
+Warning: javax.tools.StandardLocation is a phantom class!
+Warning: javax.tools.ToolProvider is a phantom class!
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Lorg/androidannotations/annotations/EBean$Scope;'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'Lorg/androidannotations/annotations/Receiver$RegisterAt;'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'J'
+get type from 'Lorg/androidannotations/annotations/UiThread$Propagation;'
+get type from 'I'
+get type from 'I'
+get type from 'Lorg/androidannotations/annotations/WakeLock$Level;'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Lorg/androidannotations/annotations/sharedpreferences/SharedPref$Scope;'
+Warning: org.springframework.core.NestedRuntimeException is a phantom class!
+Warning: org.springframework.http.HttpAuthentication is a phantom class!
+Warning: org.springframework.web.client.RestTemplate is a phantom class!
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Z'
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 16.3 seconds.
+[Spark] Solution found in 16.3 seconds.
+Removed 1011 call edges
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 441, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onJSONException(org.json.JSONException)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("cgi_report_debug", $r7) on line 98, from the following sources:
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tencent.utils.HttpUtils: java.lang.String a(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r5, $r3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r0) on line 307, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("IsUpdateResultSet", 0) on line 192, from the following sources:
+	- $z0 = virtualinvoke $r6.<android.os.Bundle: boolean getBoolean(java.lang.String)>("IS_DEBUG") (in <com.caimi.kuaidai.config.AppMetaData: void <init>(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r3), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.igexin.getuiext.activity.GetuiExtActivity: android.content.Intent getIntent()>() (in <com.igexin.getuiext.activity.GetuiExtActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r24.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r25, $r22, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r3, $r2), from the following sources:
+	- $r19 = virtualinvoke $r12.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r9) (in <com.tencent.stat.d: void a(java.util.List,com.tencent.stat.c)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r2, $r6, 1) on line 63, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 465, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onNetworkUnavailableException(com.tencent.utils.HttpUtils$NetworkUnavailableException)>)
+Found a flow to sink virtualinvoke $r0.<com.caimi.kuaidai.app.activity.LaunchActivity: void startActivity(android.content.Intent)>($r3) on line 92, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.caimi.kuaidai.app.activity.LaunchActivity: android.content.Intent getIntent()>() (in <com.caimi.kuaidai.app.activity.LaunchActivity: boolean isPushHandler()>)
+Found a flow to sink virtualinvoke $r45.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r1, $r44, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r46 = interfaceinvoke $r29.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.igexin.download.g: void run()>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink specialinvoke $r3.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>($r8, $r9) on line 533, from the following sources:
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.caimi.kuaidai.vo.dbean.DBeanUserProfileDao: com.caimi.kuaidai.vo.dbean.DBeanUserProfile readEntity(android.database.Cursor,int)>)
+Found a flow to sink virtualinvoke $r1.<android.app.Activity: void startActivity(android.content.Intent)>($r4) on line 211, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r1, null, "( status = \'200\' AND destination = \'2\' )", null, "lastmod"), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r12.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r13, $r10, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("OpenConfig", $r1) on line 324, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2) on line 201, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("ApplicationVersionCode", $i0) on line 198, from the following sources:
+	- $z0 = virtualinvoke $r6.<android.os.Bundle: boolean getBoolean(java.lang.String)>("IS_DEBUG") (in <com.caimi.kuaidai.config.AppMetaData: void <init>(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 417, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onComplete(org.json.JSONObject)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r3, $r2), from the following sources:
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.n: void c(java.util.List,int)>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.n: com.tencent.stat.DeviceInfo b(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0) on line 314, from the following sources:
+	- $r9 = virtualinvoke $r8.<java.net.URLConnection: java.io.InputStream getInputStream()>() (in <com.wacai365.share.util.Helper: boolean downloadShareImageFile(java.lang.String,java.lang.String)>)
+	- $r8 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.wacai365.share.util.Helper: boolean downloadShareImageFile(java.lang.String,java.lang.String)>)
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r20, $r16) on line 91, from the following sources:
+	- $z0 = virtualinvoke $r6.<android.os.Bundle: boolean getBoolean(java.lang.String)>("IS_DEBUG") (in <com.caimi.kuaidai.config.AppMetaData: void <init>(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("cgi_report_debug", $r4) on line 140, from the following sources:
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r3, $r2), from the following sources:
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.n: void c(java.util.List,int)>)
+	- $r6 = interfaceinvoke $r3.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.n: void f()>)
+	- $r19 = virtualinvoke $r12.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r9) (in <com.tencent.stat.d: void a(java.util.List,com.tencent.stat.c)>)
+	- $r20 = interfaceinvoke $r19.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tencent.stat.d: void a(java.util.List,com.tencent.stat.c)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tencent.stat.common.k: java.lang.String l(android.content.Context)>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.n: com.tencent.stat.DeviceInfo b(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = interfaceinvoke $r3.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.n: void f()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1) on line 248, from the following sources:
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.caimi.kuaidai.vo.dbean.DBeanUserProfileDao: com.caimi.kuaidai.vo.dbean.DBeanUserProfile readEntity(android.database.Cursor,int)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 473, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onHttpStatusException(com.tencent.utils.HttpUtils$HttpStatusException)>)
+Found a flow to sink virtualinvoke $r3.<android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>($r1, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r4.<com.igexin.getuiext.service.h: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<com.igexin.getuiext.service.h: android.os.Message obtainMessage()>() (in <com.igexin.getuiext.service.GetuiExtService: void onStart(android.content.Intent,int)>)
+Found a flow to sink $r5 = virtualinvoke $r3.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r5, $r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.igexin.getuiext.activity.GetuiExtActivity: android.content.Intent getIntent()>() (in <com.igexin.getuiext.activity.GetuiExtActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 481, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onUnknowException(java.lang.Exception)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r8 = virtualinvoke $r0.<com.wacai365.wxapi.WXEntryActivity: android.content.Intent getIntent()>() (in <com.wacai365.wxapi.WXEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("GetuiSdkDemo", $r7) on line 51, from the following sources:
+	- $r6 = virtualinvoke $r5.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("payload") (in <com.caimi.kuaidai.app.receiver.GetuiPushMsgReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r22.<java.io.FileOutputStream: void write(byte[],int,int)>($r8, 0, $i7), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r46 = interfaceinvoke $r29.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.igexin.download.g: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 425, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onIOException(java.io.IOException)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2) on line 177, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.wacai365.share.activity.ChooseShareActivity: android.content.Intent getIntent()>() (in <com.wacai365.share.activity.ChooseShareActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r10.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r11, $r8, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id"), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("cgi_report_debug", $r14) on line 295, from the following sources:
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+Found a flow to sink $z0 = virtualinvoke $r0.<de.greenrobot.event.HandlerPoster: boolean sendMessage(android.os.Message)>($r5) on line 43, from the following sources:
+	- $r5 = virtualinvoke $r0.<de.greenrobot.event.HandlerPoster: android.os.Message obtainMessage()>() (in <de.greenrobot.event.HandlerPoster: void enqueue(de.greenrobot.event.Subscription,java.lang.Object)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 433, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onMalformedURLException(java.net.MalformedURLException)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("ApplicationVersionCode", $i0) on line 198, from the following sources:
+	- $z0 = virtualinvoke $r6.<android.os.Bundle: boolean getBoolean(java.lang.String)>("IS_DEBUG") (in <com.caimi.kuaidai.config.AppMetaData: void <init>(android.content.Context)>)
+Found a flow to sink $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r1, $r2, "status == \'192\'", null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r45.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r1, $r44, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r46 = interfaceinvoke $r29.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.igexin.download.g: void run()>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("cgi_report_debug", $r3) on line 122, from the following sources:
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tencent.utils.HttpUtils: java.lang.String a(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r45.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r1, $r44, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r9.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r10, $r4, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("cgi_report_debug", $r14) on line 259, from the following sources:
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("report_debug", $r9) on line 47, from the following sources:
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+Found a flow to sink virtualinvoke $r24.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r25, $r22, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r45.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r1, $r44, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r46 = interfaceinvoke $r29.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.igexin.download.g: void run()>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink virtualinvoke $r10.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r11, $r8, null, null), from the following sources:
+	- $r6 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r16 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r8 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r15 = virtualinvoke $r13.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r14, null, null, null, "_id") (in <com.igexin.download.f: void run()>)
+	- $r13 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r14 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r5 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r11 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r2.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.igexin.download.DownloadService: java.lang.String a(java.lang.String,android.database.Cursor,java.lang.String)>)
+	- $r19 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r10 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r7 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r18 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r12 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r17 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r3 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i6) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r20 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i14) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+	- $r9 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>($i10) (in <com.igexin.download.DownloadService: void a(android.database.Cursor,int,boolean,boolean,long)>)
+Found a flow to sink $r7 = interfaceinvoke $r2.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.igexin.getuiext.activity.GetuiExtActivity: android.content.Intent getIntent()>() (in <com.igexin.getuiext.activity.GetuiExtActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r9 = interfaceinvoke $r6.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r2), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.igexin.getuiext.activity.GetuiExtActivity: android.content.Intent getIntent()>() (in <com.igexin.getuiext.activity.GetuiExtActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 449, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onConnectTimeoutException(org.apache.http.conn.ConnectTimeoutException)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3) on line 457, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.tencent.connect.common.BaseApi$TempRequestListener: void onSocketTimeoutException(java.net.SocketTimeoutException)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("cgi_report_debug", $r2) on line 300, from the following sources:
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r13 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r14 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r12 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r8 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r6 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r9 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r11 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList d()>)
+	- $r10 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.tencent.open.a.d: java.util.ArrayList c()>)
+Found a flow to sink virtualinvoke $r2.<com.igexin.getuiext.service.i: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r2.<com.igexin.getuiext.service.i: android.os.Message obtainMessage(int)>(11002) (in <com.igexin.getuiext.service.GetuiExtService: void onStart(android.content.Intent,int)>)
+Analysis has run for 36.765750031 seconds

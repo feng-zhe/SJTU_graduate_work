@@ -1,0 +1,432 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/Blued.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+get type from 'Z'
+get type from 'Z'
+get type from 'Lcom/j256/ormlite/field/DataType;'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+Warning: android.app.Notification$Action$Builder is a phantom class!
+Warning: android.app.RemoteInput$Builder is a phantom class!
+Warning: android.app.RemoteInput is a phantom class!
+Warning: android.app.SharedElementCallback is a phantom class!
+Warning: android.graphics.Outline is a phantom class!
+Warning: android.media.AudioAttributes$Builder is a phantom class!
+Warning: android.media.AudioAttributes is a phantom class!
+Warning: android.media.MediaMetadata$Builder is a phantom class!
+Warning: android.media.MediaMetadata is a phantom class!
+Warning: android.media.VolumeProvider is a phantom class!
+Warning: android.media.session.MediaController$Callback is a phantom class!
+Warning: android.media.session.MediaController$PlaybackInfo is a phantom class!
+Warning: android.media.session.MediaController$TransportControls is a phantom class!
+Warning: android.media.session.MediaController is a phantom class!
+Warning: android.media.session.MediaSession$Callback is a phantom class!
+Warning: android.media.session.MediaSession$Token is a phantom class!
+Warning: android.media.session.MediaSession is a phantom class!
+Warning: android.media.session.PlaybackState$Builder is a phantom class!
+Warning: android.media.session.PlaybackState is a phantom class!
+Warning: android.transition.Transition$EpicenterCallback is a phantom class!
+Warning: android.view.View$OnApplyWindowInsetsListener is a phantom class!
+Warning: android.view.WindowInsets is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.IWeiboHandler$Response is a phantom class!
+Warning: com.sina.weibo.sdk.auth.WeiboAuthListener is a phantom class!
+Warning: com.sina.weibo.sdk.auth.sso.SsoHandler is a phantom class!
+Warning: com.sina.weibo.sdk.auth.AuthInfo is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.IWeiboShareAPI is a phantom class!
+Warning: com.sina.weibo.sdk.api.BaseMediaObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.ImageObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.TextObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.BaseResponse is a phantom class!
+Warning: com.sina.weibo.sdk.exception.WeiboException is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: com.sina.weibo.sdk.api.WebpageObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.WeiboMultiMessage is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.BaseRequest is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.SendMultiMessageToWeiboRequest is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.WeiboShareSDK is a phantom class!
+Warning: com.sina.weibo.sdk.utils.Utility is a phantom class!
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Lorg/msgpack/template/FieldOption;'
+get type from 'Z'
+Warning: com.soft.blued.ui.discover.FindSearchMapNewActivity is a phantom class!
+Warning: com.soft.blued.wxapi.WXEntryActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 16.3 seconds.
+[Spark] Solution found in 16.3 seconds.
+Removed 1360 call edges
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("activities", $r3) on line 198, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r10 = interfaceinvoke $r10.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("serial", $i2) on line 81, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("successful_request", $i0) on line 77, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("session_start_time", $l4) on line 191, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r2) on line 36, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.welcome.FirstActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.FirstActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("im", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.c.c: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("im", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.c.c: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r2) on line 116, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("last_request_spent_ms", $i0) on line 77, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("a_start_time", 0L) on line 197, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r2) on line 40, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[])>($r6), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.c.c: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.FileOutputStream: void write(byte[])>($r1) on line 319, from the following sources:
+	- $r15 = interfaceinvoke $r12.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <biw: byte[] a(byte[],java.lang.String)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("cuid", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.android.bbalbs.common.util.a$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r4) on line 279, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("current_index", $i0) on line 130, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r14 = interfaceinvoke $r14.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("dntr", $l4) on line 34, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("session_id", $r5) on line 191, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("a_start_time", $l4) on line 191, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("failed_requests ", $i0) on line 77, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r26 = interfaceinvoke $r26.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("first_activate_time", $l3) on line 216, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("session_end_time", $l0) on line 197, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) on line 153, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("a_end_time", $l0) on line 197, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r10 = interfaceinvoke $r10.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("signature", $r7) on line 81, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("session_end_time", 0L) on line 191, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("last_request_time", $l1) on line 77, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <bgh: java.lang.String c(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r3 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <bgh: java.lang.String[] i(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <bgh: int h(android.content.Context)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("cuid", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.android.bbalbs.common.util.a$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("activities", "") on line 191, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("a_end_time", 0L) on line 191, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Found a flow to sink $r14 = interfaceinvoke $r14.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("uptr", $l4) on line 34, from the following sources:
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String,int)>("arg_select_tab", $i0) (in <com.soft.blued.ui.home.HomeActivity: void a(boolean,android.content.Intent)>)
+	- $r6 = virtualinvoke $r0.<com.soft.blued.ui.msg.ShowPositionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.msg.ShowPositionActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.soft.blued.ui.home.HomeActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r1.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("arg_bool_backtomain", $z0) (in <com.soft.blued.activity.TerminalActivity: void initActivityArgs(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.soft.blued.activity.TerminalActivity: android.content.Intent getIntent()>() (in <com.soft.blued.activity.TerminalActivity: void initFragment()>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $z0 = virtualinvoke $r3.<android.os.Bundle: boolean getBoolean(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.soft.blued.ui.welcome.UpdateVersionActivity: android.content.Intent getIntent()>() (in <com.soft.blued.ui.welcome.UpdateVersionActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("current_index") (in <com.soft.blued.ui.home.HomeActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r6) (in <com.soft.blued.ui.web.WebViewShowInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>)
+Analysis has run for 201.349593972 seconds

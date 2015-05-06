@@ -1,0 +1,137 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/cai_fu_tong.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.tenpay.android.PaipaiReceiveActivity is a phantom class!
+Warning: com.tenpay.android.LifeHelperActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 8.3 seconds.
+[Spark] Solution found in 8.3 seconds.
+Removed 608 call edges
+Found a flow to sink virtualinvoke $r18.<android.os.Handler: boolean sendMessage(android.os.Message)>($r31), from the following sources:
+	- $r4 = virtualinvoke $r0.<com.tenpay.android.DownloadDialogActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.DownloadDialogActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("last_imei", $r4), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <oicq.wlogin_sdk.tools.l: byte[] b(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("tfname", $r11), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+Found a flow to sink $r15 = interfaceinvoke $r4.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r12), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+Found a flow to sink virtualinvoke $r0.<com.tenpay.android.MainUIActivity: void startActivity(android.content.Intent)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.MainUIActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.MainUIActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke r44.<java.io.FileOutputStream: void write(byte[],int,int)>($r26, 0, $i1), from the following sources:
+	- $r21 = interfaceinvoke $r17.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.c.q: boolean a(java.lang.String,java.lang.String)>)
+Found a flow to sink virtualinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r4), from the following sources:
+	- $r8 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyAnotherActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyAnotherActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryCreateCoorActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryCreateCoorActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.tenpay.android.LotteryBetActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBetActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tenpay.android.LotteryHisContentActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryHisContentActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tenpay.android.LotteryZhuihaoListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryZhuihaoListActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tenpay.android.LotteryWidgetBuySuccessActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryWidgetBuySuccessActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<com.tenpay.android.LotteryNoticeHistoryActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryNoticeHistoryActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.tenpay.android.MessageCenterActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.MessageCenterActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.EnableYdtActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.EnableYdtActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tenpay.android.LotteryMyHistoryActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryMyHistoryActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tenpay.android.c.r: boolean a(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("msg", $r6), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("data", $r19), from the following sources:
+	- $r19 = interfaceinvoke $r11.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.c: void c()>)
+	- $r18 = interfaceinvoke $r10.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.e: void c()>)
+Found a flow to sink $r10 = interfaceinvoke $r4.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r7), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("data", $r20), from the following sources:
+	- $r19 = interfaceinvoke $r11.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.c: void c()>)
+	- $r18 = interfaceinvoke $r10.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.e: void c()>)
+Found a flow to sink $r10 = interfaceinvoke $r4.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r7), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+Found a flow to sink virtualinvoke $r29.<java.io.FileOutputStream: void write(byte[],int,int)>($r30, 0, $i4), from the following sources:
+	- $r22 = interfaceinvoke $r14.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.bg: void run()>)
+Found a flow to sink $r10 = interfaceinvoke $r4.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r7), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[],int,int)>($r1, 0, $i0), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r20 = interfaceinvoke $r15.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.d: void c()>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+Found a flow to sink specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("data", $r20), from the following sources:
+	- $r19 = interfaceinvoke $r11.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.c: void c()>)
+	- $r18 = interfaceinvoke $r10.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.e: void c()>)
+Found a flow to sink virtualinvoke $r18.<android.os.Handler: boolean sendMessage(android.os.Message)>($r31), from the following sources:
+	- $r4 = virtualinvoke $r0.<com.tenpay.android.DownloadDialogActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.DownloadDialogActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r18.<android.os.Handler: boolean sendMessage(android.os.Message)>($r31), from the following sources:
+	- $r4 = virtualinvoke $r0.<com.tenpay.android.DownloadDialogActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.DownloadDialogActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("data", $r16), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("status") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r5 = virtualinvoke $r7.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LotteryWidgetConfirmActivity: com.tenpay.android.c.k a(int)>)
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.tenpay.android.LoginActivity: com.tenpay.android.c.k a(int)>)
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("state") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+	- $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tenpay.android.b.g: void c()>)
+	- $r4 = virtualinvoke $r1.<android.os.Bundle: byte[] getByteArray(java.lang.String)>("data") (in <com.tenpay.android.c.h: void a(int,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("data", $r19), from the following sources:
+	- $r19 = interfaceinvoke $r11.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.c: void c()>)
+	- $r18 = interfaceinvoke $r10.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tenpay.android.b.e: void c()>)
+Found a flow to sink virtualinvoke $r9.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.tenpay.android.LotteryBuyCoorListActivity: android.content.Intent getIntent()>() (in <com.tenpay.android.LotteryBuyCoorListActivity: void onCreate(android.os.Bundle)>)
+Analysis has run for 16.55967145 seconds

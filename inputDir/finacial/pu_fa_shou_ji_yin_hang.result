@@ -1,0 +1,28 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/pu_fa_shou_ji_yin_hang.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: android.app.Notification$Action$Builder is a phantom class!
+Warning: android.app.RemoteInput$Builder is a phantom class!
+Warning: android.app.RemoteInput is a phantom class!
+get type from 'Z'
+Warning: javax.naming.NamingEnumeration is a phantom class!
+Warning: javax.naming.NamingException is a phantom class!
+Warning: javax.naming.directory.Attribute is a phantom class!
+Warning: javax.naming.directory.Attributes is a phantom class!
+Warning: javax.naming.directory.DirContext is a phantom class!
+Warning: javax.naming.directory.InitialDirContext is a phantom class!
+Warning: javax.naming.directory.SearchControls is a phantom class!
+Warning: javax.naming.directory.SearchResult is a phantom class!
+Warning: org.bouncycastle.crypto.params.NTRUEncryptionParameters is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+second round from stmt: $u9 = $u0[$u2]
+array element type: (filled narr)int
+[Spark] Propagation in 17.7 seconds.
+[Spark] Solution found in 17.7 seconds.
+Removed 1286 call edges

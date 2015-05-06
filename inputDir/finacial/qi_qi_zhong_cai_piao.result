@@ -1,0 +1,533 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/qi_qi_zhong_cai_piao.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.qiqizhong.android.ui.user.operator.FindPassUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jczq.JczqConfirmShengPfUI is a phantom class!
+Warning: android.animation.ValueAnimator is a phantom class!
+Warning: android.app.ActionBar is a phantom class!
+Warning: android.app.ActivityOptions is a phantom class!
+Warning: android.app.Notification$BigPictureStyle is a phantom class!
+Warning: android.app.Notification$BigTextStyle is a phantom class!
+Warning: android.app.Notification$Builder is a phantom class!
+Warning: android.app.Notification$InboxStyle is a phantom class!
+Warning: android.app.SearchableInfo is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$Page is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$PageInfo is a phantom class!
+Warning: android.hardware.display.DisplayManager is a phantom class!
+Warning: android.media.AudioManager$OnAudioFocusChangeListener is a phantom class!
+Warning: android.media.RemoteControlClient$OnGetPlaybackPositionListener is a phantom class!
+Warning: android.media.RemoteControlClient$OnPlaybackPositionUpdateListener is a phantom class!
+Warning: android.media.RemoteControlClient is a phantom class!
+Warning: android.net.TrafficStats is a phantom class!
+Warning: android.net.http.SslError is a phantom class!
+Warning: android.os.CancellationSignal$OnCancelListener is a phantom class!
+Warning: android.os.CancellationSignal is a phantom class!
+Warning: android.os.Parcelable$ClassLoaderCreator is a phantom class!
+Warning: android.print.PageRange is a phantom class!
+Warning: android.print.PrintAttributes$Builder is a phantom class!
+Warning: android.print.PrintAttributes$MediaSize is a phantom class!
+Warning: android.print.PrintAttributes is a phantom class!
+Warning: android.print.PrintDocumentAdapter$LayoutResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter$WriteResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter is a phantom class!
+Warning: android.print.PrintDocumentInfo$Builder is a phantom class!
+Warning: android.print.PrintDocumentInfo is a phantom class!
+Warning: android.print.PrintJob is a phantom class!
+Warning: android.print.PrintManager is a phantom class!
+Warning: android.print.pdf.PrintedPdfDocument is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowAttachListener is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowFocusChangeListener is a phantom class!
+Warning: android.view.View$AccessibilityDelegate is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeInfo is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeProvider is a phantom class!
+Warning: android.view.MenuItem$OnActionExpandListener is a phantom class!
+Warning: android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener is a phantom class!
+Warning: android.widget.SearchView$OnQueryTextListener is a phantom class!
+Warning: android.widget.SearchView$OnCloseListener is a phantom class!
+Warning: android.widget.SearchView is a phantom class!
+Warning: android.view.ActionProvider is a phantom class!
+Warning: android.view.KeyEvent$DispatcherState is a phantom class!
+Warning: android.view.ScaleGestureDetector is a phantom class!
+Warning: android.view.accessibility.AccessibilityRecord is a phantom class!
+Warning: android.widget.EdgeEffect is a phantom class!
+Warning: android.widget.ListPopupWindow is a phantom class!
+Warning: android.widget.OverScroller is a phantom class!
+Warning: android.widget.PopupMenu is a phantom class!
+Warning: android.widget.ShareActionProvider is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155ZhiXConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.ChargeSuccess is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.pl3.Pl3Z36ConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jclq.JclqWarRecordDataUI is a phantom class!
+Warning: com.qiqizhong.android.ui.buytg.BuyTgSingleUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155DanTUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jczq.JczqPlayInfoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.gd11x5.Gd11x5BeforeTwoDetailUI is a phantom class!
+Warning: com.qiqizhong.android.ui.GouCaiHallUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.pl3.Pl3ZXConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155CenterUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.BankChargeConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.operator.LoginWeiboBindUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.MoreChargeUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.ssq.DigitalConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.pl3.Pl3PlayInfo is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.qlc.QlcDanTConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.qlc.QlcDanTUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jclq.JclqDataAnalysisUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.gd11x5.Gd11x5PlayInfoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x115.X115UI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155DanTConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.explain.SettingUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155PlayInfoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.ssc.SscDaXiaoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.AlipayChargeConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.UserWithdrawalConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.kjgg.TermDetailNbaUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.bjdc.BdShengPFConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.ssq.SsqUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155ZhiXUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.dlt.DltDanTConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.sfc.Sfc14CenterUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.query.BetDetailUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jclq.JclqNearFutureResultUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.r9.R9CenterUI is a phantom class!
+Warning: com.qiqizhong.android.ui.buytg.BuyTgResultUI is a phantom class!
+Warning: com.qiqizhong.android.ui.CZOrderUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.CardChargeConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x115.X115ConfirmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.gd11x5.Gd11x5UI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x155.X155UI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jczq.JczqShengPfUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.gd11x5.Gd11x5DetailUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jclq.JclqCenterUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.operator.UserModifyUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.BankChargeUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jclq.JclqHmUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x115.X115DetailUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x115.X115CenterUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.gd11x5.Gd11x5CenterUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.x115.X115PlayInfoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.info.InfoDetailUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.operator.UserModifySuccessUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.dlt.DltDanTUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.bjdc.BdPlayinfoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.operator.UserGiftUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.Shooping is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.bjdc.BdShengPFUI is a phantom class!
+Warning: com.qiqizhong.android.ui.bet.jclq.JclqPlayInfoUI is a phantom class!
+Warning: com.qiqizhong.android.ui.user.money.UserMoneyUI is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+array element type: (filled narr)int
+array element type: (filled narr)int
+[Spark] Propagation in 24.8 seconds.
+[Spark] Solution found in 24.8 seconds.
+Removed 1383 call edges
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i3) on line 208, from the following sources:
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+	- $r7 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+Found a flow to sink specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r2) on line 412, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r3, $r2), from the following sources:
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("lotyname") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("lotyname") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataJf: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataJf: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.dlt.DltZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.dlt.DltZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sum") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("guoguan") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.SportsLotteryShoopingSuccess: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.SportsLotteryShoopingSuccess: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("playName") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.x115.Base11x5ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.x115.Base11x5ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.DigitalHemaiUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.sfc.SfcConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.sfc.SfcConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tencent.stat.b.r: java.lang.String a(android.content.Context)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("beishu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXUI: void onCreate(android.os.Bundle)>)
+	- $r19 = virtualinvoke $r13.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r10) (in <com.tencent.stat.ad: void a(java.util.List,com.tencent.stat.ac)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.jclq.JclqBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.jclq.JclqBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z3Z6ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z3Z6ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.qxc.QxcZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.qxc.QxcZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.SsqDanTConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.SsqDanTConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("codes") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("extend") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.jczq.JczqBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.jczq.JczqBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataLs: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataLs: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssc.SscConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssc.SscConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.qlc.QlcZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.qlc.QlcZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.q: com.tencent.stat.b.c b(android.content.Context)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("rangqiu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.q: void b(java.util.List,int)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r10 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.k3.K3ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.k3.K3ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.SsqZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.SsqZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoContentUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoContentUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qihao") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r1 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.JcHemaiUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("zhushu") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.bjdc.BdBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.bjdc.BdBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("zhushu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qihao") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.operator.LoginUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.operator.LoginUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sp") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sum") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("codes") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.money.WapChargeUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.money.WapChargeUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("beishu") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("playName") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ShoopingSuccess: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ShoopingSuccess: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r6, $r3) on line 56, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 39, from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r2) on line 419, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r4) on line 593, from the following sources:
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("MID", $r1), from the following sources:
+	- $r12 = virtualinvoke $r3.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r5) (in <com.tencent.a.a.b: com.tencent.a.a.f a(java.lang.String,java.lang.String)>)
+	- $r7 = virtualinvoke $r2.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r4) (in <com.tencent.a.a.b: com.tencent.a.a.f a(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 34, from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r3, $r2), from the following sources:
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("lotyname") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("lotyname") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataJf: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataJf: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.dlt.DltZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.dlt.DltZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sum") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("guoguan") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("playName") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.SportsLotteryShoopingSuccess: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.SportsLotteryShoopingSuccess: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.x115.Base11x5ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.x115.Base11x5ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.DigitalHemaiUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tencent.stat.b.r: java.lang.String a(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.sfc.SfcConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.sfc.SfcConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("beishu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXUI: void onCreate(android.os.Bundle)>)
+	- $r19 = virtualinvoke $r13.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r10) (in <com.tencent.stat.ad: void a(java.util.List,com.tencent.stat.ac)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.jclq.JclqBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.jclq.JclqBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z3Z6ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z3Z6ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.qxc.QxcZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.qxc.QxcZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("codes") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.SsqDanTConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.SsqDanTConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("extend") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.jczq.JczqBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.jczq.JczqBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: void onCreate(android.os.Bundle)>)
+	- $r20 = interfaceinvoke $r19.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tencent.stat.ad: void a(java.util.List,com.tencent.stat.ac)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataLs: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataLs: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.qlc.QlcZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.qlc.QlcZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssc.SscConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssc.SscConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.q: com.tencent.stat.b.c b(android.content.Context)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("rangqiu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.q: void b(java.util.List,int)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r10 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: void onCreate(android.os.Bundle)>)
+	- $r7 = interfaceinvoke $r3.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.q: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.k3.K3ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.k3.K3ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.SsqZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.SsqZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoContentUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoContentUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qihao") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r1 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.JcHemaiUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("zhushu") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.bjdc.BdBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.bjdc.BdBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("zhushu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qihao") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.operator.LoginUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.operator.LoginUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sp") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sum") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("codes") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.money.WapChargeUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.money.WapChargeUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("beishu") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("playName") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ShoopingSuccess: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ShoopingSuccess: void onCreate(android.os.Bundle)>)
+	- $r6 = interfaceinvoke $r3.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.q: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r21) on line 443, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("MID", $r0), from the following sources:
+	- $r12 = virtualinvoke $r3.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r5) (in <com.tencent.a.a.b: com.tencent.a.a.f a(java.lang.String,java.lang.String)>)
+	- $r7 = virtualinvoke $r2.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r4) (in <com.tencent.a.a.b: com.tencent.a.a.f a(java.lang.String)>)
+	- $r13 = interfaceinvoke $r12.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.tencent.a.a.b: com.tencent.a.a.f a(java.lang.String,java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 49, from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i4) on line 213, from the following sources:
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+	- $r7 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(int)>($i3) on line 210, from the following sources:
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+	- $r7 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.qiqizhong.android.i.d: android.content.ContentValues a()>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("deviceinfo", $r6) on line 301, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tencent.android.tpush.service.c.c: java.lang.String c(android.content.Context)>)
+Found a flow to sink virtualinvoke $r9.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7) on line 583, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataJf: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataJf: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean b()>)
+	- $r3 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean b()>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean d()>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataLs: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataLs: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean d()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataPl: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataPl: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<java.io.FileOutputStream: void write(byte[],int,int)>($r4, 0, $i2) on line 578, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean b()>)
+	- $r3 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean b()>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean d()>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.qiqizhong.android.h.a: boolean d()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $r4 = virtualinvoke $r2.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.w: void a()>)
+	- $r4 = virtualinvoke $r2.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.w: void a()>)
+	- $r4 = virtualinvoke $r2.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.a: void a()>)
+	- $r8 = virtualinvoke $r7.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ak: void a()>)
+	- $r4 = virtualinvoke $r3.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ah: void a()>)
+	- $r2 = virtualinvoke $r0.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activity.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r3.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ah: void a()>)
+	- $r4 = virtualinvoke $r3.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ah: void a()>)
+	- $r7 = virtualinvoke $r5.<android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)>("PAY_RESULT_FAILURE") (in <com.yintong.secure.activityproxy.ah: void a()>)
+Found a flow to sink specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r2) on line 532, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 44, from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("123", $r18), from the following sources:
+	- $r4 = virtualinvoke $r2.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.w: void a()>)
+	- $r4 = virtualinvoke $r2.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.a: void a()>)
+	- $r4 = virtualinvoke $r2.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.w: void a()>)
+	- $r8 = virtualinvoke $r7.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ak: void a()>)
+	- $r4 = virtualinvoke $r3.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ah: void a()>)
+	- $r2 = virtualinvoke $r0.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activity.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r3.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ah: void a()>)
+	- $r4 = virtualinvoke $r3.<com.yintong.secure.activity.BaseActivity: android.content.Intent getIntent()>() (in <com.yintong.secure.activityproxy.ah: void a()>)
+	- $r7 = virtualinvoke $r5.<android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)>("PAY_RESULT_FAILURE") (in <com.yintong.secure.activityproxy.ah: void a()>)
+Found a flow to sink specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r2) on line 520, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r16.<android.os.Handler: boolean sendMessage(android.os.Message)>($r15) on line 231, from the following sources:
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataJf: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataJf: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataLs: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataLs: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataPl: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataPl: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1) on line 262, from the following sources:
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataJf: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataJf: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataLs: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataLs: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataPl: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataPl: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2) on line 316, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r4) on line 81, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r4) on line 195, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r2) on line 578, from the following sources:
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r3, $r2), from the following sources:
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("lotyname") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("lotyname") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataJf: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataJf: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.dlt.DltZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.dlt.DltZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sum") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("guoguan") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.SportsLotteryShoopingSuccess: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.SportsLotteryShoopingSuccess: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("playName") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.x115.Base11x5ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.x115.Base11x5ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.DigitalHemaiUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tencent.stat.b.r: java.lang.String a(android.content.Context)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.sfc.SfcConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.sfc.SfcConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("beishu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.jclq.JclqBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.jclq.JclqBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z3Z6ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z3Z6ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.qxc.QxcZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.qxc.QxcZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.SsqDanTConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.SsqDanTConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("codes") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("extend") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.jczq.JczqBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.jczq.JczqBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ZqDataLs: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ZqDataLs: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.qlc.QlcZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.qlc.QlcZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssc.SscConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssc.SscConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.tencent.stat.q: com.tencent.stat.b.c b(android.content.Context)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("rangqiu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.tencent.stat.q: void b(java.util.List,int)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3ZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r10 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailNbaLive: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.k3.K3ConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.k3.K3ConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.SsqZhiXConfirmUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.SsqZhiXConfirmUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoContentUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoContentUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qihao") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r1 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.JcHemaiUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("zhushu") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.bjdc.BdBuyActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.bjdc.BdBuyActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ssq.DigitalRandomUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("zhushu") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.pl3.Pl3Z36UI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qihao") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.operator.LoginUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.operator.LoginUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sp") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sum") (in <com.qiqizhong.android.ui.buytg.JcHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("codes") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.money.WapChargeUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.money.WapChargeUI: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("beishu") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("playName") (in <com.qiqizhong.android.ui.buytg.DigitalHemaiUI: void f()>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.bet.ShoopingSuccess: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.bet.ShoopingSuccess: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("Net", $r5) on line 31, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.buytg.BuyTgDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.buytg.BuyTgDetailUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.info.InfoListUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.info.InfoListUI: void onCreate(android.os.Bundle)>)
+	- $r13 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJclqUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.MyBettingDetailsActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailUI: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.BetQueryUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.BetQueryUI: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailJczqUI: void onCreate(android.os.Bundle)>)
+	- $r15 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.TermDetailBjdcUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.user.query.ChaseDetailUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.user.query.ChaseDetailUI: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.qiqizhong.android.ui.kjgg.SingleBulletinUI: android.content.Intent getIntent()>() (in <com.qiqizhong.android.ui.kjgg.SingleBulletinUI: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: void startActivity(android.content.Intent)>($r5) on line 64, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 61, from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 54, from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+Analysis has run for 54.889257636 seconds

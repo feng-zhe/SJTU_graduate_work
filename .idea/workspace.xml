@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SJTU_graduate_work:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="06d93aa1-cbdf-47de-a6e7-e39772452232" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\AiYueHui.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\Blued.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\HuiJian.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\KuaiBoWangLuoDianHua.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\KuaiBoWangLuoShengQianDianHua.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\LaiWang.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\MaoHu.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\MeMeDa.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\MoFangYouXiBao.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\NuoNuoJiNeng.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\QQ_HD_mini.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\QianNiu.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\RenRen.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\TongChengReLian.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\TongTongMianFeiDianHua.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\WTV_DianShiZhiBo.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\WeiJu.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\WiFi_WanNengYaoShi.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\XiaoEnAi.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\YouJia.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\YouXinMianFeiDianHua.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\YunFuWu.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\ZANK-ZanKe.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\assignment.txt" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\ccLaiDianXuanTu.apk.result" afterPath="" />
-      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\outputDir\matlab.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\108_she_qu.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\Blued.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\KakaoTalk.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\SayHi_jiao_you_liao_tian_yue_hui.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\WTV_dian_shi_zhi_bo.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\ai_yue_hui.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\bai_he_hun_lian.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\dan_shen_zai_xian.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\dui_mian.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\er_yu.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\examples.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\hangout.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\hui_jian.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\kai_xin_wang.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\kuai_bo_wang_luo_dian_hua.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\lai_wang.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\mao_hu.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\me_me_da.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\mi_liao.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\mi_mi.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\mo_mo.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\nuo_nuo_ji_neng.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\pei_wo.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\qian_niu.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\qu_dong.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\ren_ren.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\tai_gang.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\tong_cheng_re_lian.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\tong_tong_mian_fei_dian_hua.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\wang_xin.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\wei_hui_mian_fei_dian_hua.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\wei_ju.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\wei_wei.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\wei_xin.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\xiang_jiao_huo_dong.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\xiao_en_ai.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\yi_ban.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\yi_liao.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\you_jia.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\you_xin.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\you_yuan_wang.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\yuan_lai_hun_lian.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\inputDir\yun_fu_wu.result" afterPath="" />
+      <change type="DELETED" beforePath="G:\Github\SJTU_graduate_work\outputDir\matlab_command.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/Constants.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" afterPath="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -57,10 +81,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="104" column="71" selection-start-line="104" selection-start-column="71" selection-end-line="104" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.38184932">
+              <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#8207#8582#0" expanded="true" />
+                <element signature="e#8581#8582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,11 +127,11 @@
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/Learner.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java" />
-        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/DataUtil.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Models/SinkStatic.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Models/SinkStatistic.java" />
+        <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java" />
       </list>
     </option>
@@ -149,7 +175,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +207,44 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SJTU_graduate_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SJTU_graduate_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="henryzhefeng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SJTU_graduate_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SJTU_graduate_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="henryzhefeng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,15 +270,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SJTU_graduate_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SJTU_graduate_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="henryzhefeng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -245,7 +329,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="gmail.henryzhefeng.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-a" />
+      <option name="PROGRAM_PARAMETERS" value="-s" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -464,10 +548,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -475,20 +560,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16490166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16414523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -520,6 +604,8 @@
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -537,6 +623,8 @@
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,6 +642,8 @@
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -571,6 +661,8 @@
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -588,6 +680,8 @@
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,6 +713,8 @@
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,6 +746,8 @@
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,6 +772,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,6 +812,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -750,6 +852,8 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,6 +892,8 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,85 +933,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5538461">
-          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/Learner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36923078">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Models/FileSinkInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21538462">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/FileUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2769231">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Tests/StringUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24615385">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/DataUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22945206">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/StringUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/LinearLearner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321918">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state vertical-scroll-proportion="-3.8150685">
+          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Leaner/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39041096">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Models/SinkStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21575342">
+        <state vertical-scroll-proportion="0.22773972">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Models/FileSinkInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22773972">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Utils/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79452056">
-          <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.47945204">
+          <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gmail/henryzhefeng/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="71" selection-start-line="104" selection-start-column="71" selection-end-line="104" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.38184932">
+          <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8207#8582#0" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -916,10 +1031,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>SJTU_graduate_work:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

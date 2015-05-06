@@ -1,0 +1,41 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/ping_an_kou_dai_yin_hang.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.paic.pabank.activity.LoadingActivity is a phantom class!
+Warning: com.paic.pabank.activity.GzzfAddActivity is a phantom class!
+Warning: com.paic.pabank.PAAndroidBankActivity is a phantom class!
+Warning: com.paic.pabank.activity.HelperActivity is a phantom class!
+Warning: com.paic.barcode.CaptureActivity is a phantom class!
+Warning: com.paic.pabank.offline.activity.OLineSubBankActivity is a phantom class!
+Warning: com.pingan.anydoor.ui.activity.CommonWebViewActivity is a phantom class!
+Warning: com.paic.pabank.activity.PAWebviewActivity is a phantom class!
+Warning: com.paic.pabank.offline.activity.OLineSubIndexActivity is a phantom class!
+Warning: com.paic.pabank.activity.PAAndroidTxtTreatyActivity is a phantom class!
+Warning: com.paic.pabnk.graphpwd.SetPasswordActivity is a phantom class!
+Warning: com.paic.pabank.activity.TestEnvironment is a phantom class!
+Warning: com.paic.pabank.offline.activity.OLinePAMainActivity is a phantom class!
+Warning: com.paic.pabank.activity.CutImageActivity is a phantom class!
+Warning: com.paic.pabank.activity.SubBankActivity is a phantom class!
+Warning: com.paic.pabank.offline.activity.OLineSubLifeActivity is a phantom class!
+Warning: com.paic.pabank.activity.GzzfPayActivity is a phantom class!
+Warning: com.paic.pabank.PAJSWebViewActivity is a phantom class!
+Warning: com.paic.pabank.activity.SubIndexActivity is a phantom class!
+Warning: com.paic.pabank.activity.SubLifeActivity is a phantom class!
+Warning: com.paic.gesture.login.GestureLoginPasswordActivity is a phantom class!
+Warning: com.pingan.anydoor.ui.activity.ProtocolWebViewActivity is a phantom class!
+Warning: com.paic.pabnk.graphpwd.GzzfSetPasswordActivity is a phantom class!
+Warning: com.paic.pabank.activity.PAMainActivity is a phantom class!
+Warning: com.paic.pabank.activity.PAAndroidTXTActivity is a phantom class!
+Warning: com.paic.pabank.PAAndroidWebViewActivity is a phantom class!
+Warning: com.paic.pabank.AppStatusService is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.0 seconds.
+[Spark] Solution found in 1.0 seconds.
+Removed 82 call edges
+Analysis has run for 2.870666584 seconds

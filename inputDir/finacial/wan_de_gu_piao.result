@@ -1,0 +1,759 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/wan_de_gu_piao.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: android.animation.Animator$AnimatorListener is a phantom class!
+Warning: android.animation.Animator is a phantom class!
+Warning: android.animation.AnimatorListenerAdapter is a phantom class!
+Warning: android.animation.AnimatorSet is a phantom class!
+Warning: android.animation.ObjectAnimator is a phantom class!
+Warning: android.animation.TimeInterpolator is a phantom class!
+Warning: android.animation.ValueAnimator$AnimatorUpdateListener is a phantom class!
+Warning: android.animation.ValueAnimator is a phantom class!
+Warning: android.annotation.SuppressLint is a phantom class!
+Warning: android.annotation.TargetApi is a phantom class!
+Warning: android.app.ActionBar is a phantom class!
+Warning: android.app.ActivityOptions is a phantom class!
+Warning: android.app.Fragment is a phantom class!
+Warning: android.app.Notification$BigPictureStyle is a phantom class!
+Warning: android.app.Notification$BigTextStyle is a phantom class!
+Warning: android.app.Notification$Builder is a phantom class!
+Warning: android.app.Notification$InboxStyle is a phantom class!
+Warning: android.content.ClipData is a phantom class!
+Warning: android.content.ClipboardManager is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$Page is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$PageInfo is a phantom class!
+Warning: android.graphics.pdf.PdfDocument is a phantom class!
+Warning: android.hardware.Camera$CameraInfo is a phantom class!
+Warning: android.hardware.display.DisplayManager is a phantom class!
+Warning: android.media.RemoteControlClient$OnGetPlaybackPositionListener is a phantom class!
+Warning: android.media.RemoteControlClient$OnPlaybackPositionUpdateListener is a phantom class!
+Warning: android.media.RemoteControlClient is a phantom class!
+Warning: android.os.CancellationSignal is a phantom class!
+Warning: android.os.Parcelable$ClassLoaderCreator is a phantom class!
+Warning: android.print.PageRange is a phantom class!
+Warning: android.print.PrintAttributes$Builder is a phantom class!
+Warning: android.print.PrintAttributes$MediaSize is a phantom class!
+Warning: android.print.PrintAttributes is a phantom class!
+Warning: android.print.PrintDocumentAdapter$LayoutResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter$WriteResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter is a phantom class!
+Warning: android.print.PrintDocumentInfo$Builder is a phantom class!
+Warning: android.print.PrintDocumentInfo is a phantom class!
+Warning: android.print.PrintJob is a phantom class!
+Warning: android.print.PrintManager is a phantom class!
+Warning: android.print.pdf.PrintedPdfDocument is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowAttachListener is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowFocusChangeListener is a phantom class!
+Warning: android.view.View$AccessibilityDelegate is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeInfo is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeProvider is a phantom class!
+Warning: android.view.MenuItem$OnActionExpandListener is a phantom class!
+Warning: android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener is a phantom class!
+Warning: android.widget.SearchView$OnQueryTextListener is a phantom class!
+Warning: android.widget.SearchView$OnCloseListener is a phantom class!
+Warning: android.widget.SearchView is a phantom class!
+Warning: android.view.ActionProvider is a phantom class!
+Warning: android.view.accessibility.AccessibilityRecord is a phantom class!
+Warning: android.widget.EdgeEffect is a phantom class!
+Warning: android.widget.ListPopupWindow is a phantom class!
+Warning: android.widget.OverScroller is a phantom class!
+Warning: android.widget.PopupMenu is a phantom class!
+Warning: android.widget.ShareActionProvider is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Lcom/j256/ormlite/field/DataType;'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: java.util.ArrayDeque is a phantom class!
+Warning: com.baidu.android.pushservice.internal.BasicPushNotificationBuilder is a phantom class!
+Warning: com.baidu.android.pushservice.internal.CustomPushNotificationBuilder is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushNotificationBuilder is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushConstants is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushManager is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushSettings is a phantom class!
+Warning: com.baidu.android.pushservice.util.Internal is a phantom class!
+Warning: com.baidu.frontia.base.impl.FrontiaImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushImpl is a phantom class!
+Warning: com.baidu.frontia.base.impl.FrontiaQueryImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$MessageContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$TriggerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageResult is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$NotificationContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$AndroidContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$IOSContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$DefaultNotificationStyleImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$CommonMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$ListMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$PushMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.base.impl.FrontiaQueryImpl$SortOrder is a phantom class!
+Warning: com.baidu.frontia.base.stat.StatUtils is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl is a phantom class!
+Warning: org.ksoap2.serialization.KvmSerializable is a phantom class!
+Warning: org.ksoap2.serialization.PropertyInfo is a phantom class!
+Warning: org.ksoap2.serialization.SoapSerializationEnvelope is a phantom class!
+Warning: org.ksoap2.transport.HttpTransportSE is a phantom class!
+Warning: java.awt.event.WindowAdapter is a phantom class!
+Warning: java.awt.event.WindowEvent is a phantom class!
+Warning: javax.swing.JApplet is a phantom class!
+Warning: java.awt.Dimension is a phantom class!
+Warning: javax.swing.JPanel is a phantom class!
+Warning: javax.swing.JComboBox is a phantom class!
+Warning: javax.swing.JLabel is a phantom class!
+Warning: javax.swing.JTextField is a phantom class!
+Warning: javax.swing.JButton is a phantom class!
+Warning: javax.swing.JTextArea is a phantom class!
+Warning: javax.swing.JTabbedPane is a phantom class!
+Warning: javax.swing.JScrollPane is a phantom class!
+Warning: java.awt.event.ActionListener is a phantom class!
+Warning: java.awt.event.ActionEvent is a phantom class!
+Warning: java.awt.BorderLayout is a phantom class!
+Warning: java.awt.Component is a phantom class!
+Warning: java.awt.Container is a phantom class!
+Warning: java.awt.Font is a phantom class!
+Warning: java.awt.GridLayout is a phantom class!
+Warning: java.awt.LayoutManager is a phantom class!
+Warning: java.awt.event.WindowListener is a phantom class!
+Warning: javax.swing.Icon is a phantom class!
+Warning: javax.swing.JFrame is a phantom class!
+get type from 'I'
+get type from 'I'
+Warning: org.ksoap2.SoapEnvelope is a phantom class!
+Warning: org.ksoap2.serialization.SoapObject is a phantom class!
+Warning: com.tencent.connect.common.AssistActivity is a phantom class!
+Warning: wind.android.bussiness.openaccount.activity.OpenPackageActivity is a phantom class!
+Warning: wind.android.samsung.SamsungEdgeConfigActivity is a phantom class!
+Warning: wind.android.bussiness.probe.activity.WeiboWebView is a phantom class!
+Warning: com.baidu.android.pushservice.richmedia.MediaViewActivity is a phantom class!
+Warning: wind.android.samsung.SamsungEdgeActivity is a phantom class!
+Warning: wind.android.samsung.SamsungEdgeBaseActivity is a phantom class!
+Warning: wind.android.bussiness.trade.activity.TradeBranchActivity is a phantom class!
+Warning: com.baidu.android.pushservice.PushService is a phantom class!
+Warning: com.baidu.android.pushservice.richmedia.MediaListActivity is a phantom class!
+Warning: wind.android.samsung.SamsungEdgeService is a phantom class!
+Warning: wind.android.samsung.SamsungNewsActivity is a phantom class!
+Warning: wind.android.speed.detail.stock.debt.DebtCreditActivity is a phantom class!
+Warning: com.baidu.android.pushservice.RegistrationReceiver is a phantom class!
+Warning: wind.android.samsung.SamsungStockSearchActivity is a phantom class!
+Warning: com.baidu.android.pushservice.PushServiceReceiver is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[Spark] Propagation in 47.5 seconds.
+[Spark] Solution found in 47.5 seconds.
+Removed 2699 call edges
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, 0, $i3), from the following sources:
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.nostra13.universalimageloader.core.download.BaseImageDownloader: java.net.HttpURLConnection createConnection(java.lang.String,java.lang.Object)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r10, $r11), from the following sources:
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putStringArrayList(java.lang.String,java.util.ArrayList)>("indexLetterList", $r2), from the following sources:
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getIntegerArrayList(java.lang.String)>("mListSectionPos") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("mListItems") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("onMessage", $r1), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("message_string") (in <com.baidu.frontia.api.FrontiaPushMessageReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r6.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(0, $r2) (in <log.BaseApplication: void runOnMainThread(int,java.lang.Object,log.BaseApplication$MainThreadListener)>)
+Found a flow to sink specialinvoke $r0.<android.support.v4.app.FragmentActivity: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $r13 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("servercode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("newstitle") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("newsId") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r4 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("strategyTitle") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("messageid") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("----openaccount----", $r12), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[])>($r9), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: void sendBroadcast(android.content.Intent)>($r3), from the following sources:
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_identifier_") (in <cn.sharesdk.wechat.utils.WXMediaMessage$a: cn.sharesdk.wechat.utils.WXMediaMessage a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r1.<cn.sharesdk.wechat.utils.WechatHandlerActivity: android.content.Intent getIntent()>() (in <cn.sharesdk.wechat.utils.g: boolean a(cn.sharesdk.wechat.utils.WechatHandlerActivity,cn.sharesdk.wechat.utils.h)>)
+Found a flow to sink virtualinvoke $r10.<java.io.FileOutputStream: void write(byte[])>($r13), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("message_string") (in <com.baidu.frontia.api.FrontiaPushMessageReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putIntegerArrayList(java.lang.String,java.util.ArrayList)>("mListSectionPos", $r2), from the following sources:
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getIntegerArrayList(java.lang.String)>("mListSectionPos") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("mListItems") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r12.<java.io.Writer: void write(java.lang.String)>($r8), from the following sources:
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+Found a flow to sink specialinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $r7 = virtualinvoke $r0.<wind.android.f5.activity.SpeedDetailActivity: android.content.Intent getIntent()>() (in <wind.android.f5.activity.SpeedDetailActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("position") (in <wind.android.f5.activity.SpeedDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("usedtime_tianwei", $i1), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("constraint", $r5), from the following sources:
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getIntegerArrayList(java.lang.String)>("mListSectionPos") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("mListItems") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<java.io.OutputStream: void write(byte[])>($r4), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putLong(java.lang.String,long)>("message_id", $l0), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>("message_id") (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.StrateListActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+Found a flow to sink virtualinvoke $r0.<wind.android.widget.SmallWidgetConfigView: void setResult(int,android.content.Intent)>(-1, $r21), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String,int)>("appWidgetId", 0) (in <wind.android.widget.SmallWidgetConfigView: void onCreate(android.os.Bundle)>)
+	- $r21 = virtualinvoke $r0.<wind.android.widget.SmallWidgetConfigView: android.content.Intent getIntent()>() (in <wind.android.widget.SmallWidgetConfigView: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(0, "_newscontent") (in <wind.android.bussiness.news.view.StockNewsBottomView: void sendMessage(java.lang.Object)>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("log", $r0), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r7.<com.alibaba.fastjson.serializer.SerializeWriter: void write(char[])>($r5) on line 120, from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.DiscussDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.DiscussDetailActivity: void initData()>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>("servercode") (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.StrategyNewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.StrategyNewsDetailActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.ChannelDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.ChannelDetailActivity: void getIntentData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $l0 = virtualinvoke $r2.<android.os.Bundle: long getLong(java.lang.String)>("message_id") (in <wind.android.bussiness.strategy.activity.StrategyNewsDetailActivity: void getIntentData()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $z0 = virtualinvoke $r2.<android.os.Bundle: boolean getBoolean(java.lang.String)>("can_edit_key") (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.StrateListActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("servercode") (in <wind.android.bussiness.strategy.activity.ChannelDetailActivity: void getIntentData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("id_key") (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r4, null, null, null, "date_modified desc"), from the following sources:
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r4, null, null, null, "date_modified desc") (in <wind.android.bussiness.strategy.group.PhotoSelectorActivity: java.util.ArrayList queryPhotoFromDB()>)
+	- $r2 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <wind.android.bussiness.strategy.group.PhotoSelectorActivity: java.util.ArrayList queryPhotoFromDB()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PhotoSelectorActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PhotoSelectorActivity: void acceptParams()>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[])>($r11), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("dbshi", $r11), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r6.<java.io.Writer: void write(java.lang.String)>($r1), from the following sources:
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("is_frist_load_ad", 0), from the following sources:
+	- $r2 = virtualinvoke $r0.<wind.android.LogoAdActivity: android.content.Intent getIntent()>() (in <wind.android.LogoAdActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.LogoAdActivity: android.content.Intent getIntent()>() (in <wind.android.LogoAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putParcelableArrayList(java.lang.String,java.util.ArrayList)>("mListItems", $r2), from the following sources:
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getIntegerArrayList(java.lang.String)>("mListSectionPos") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBrokerActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("mListItems") (in <wind.android.bussiness.trade.activity.TradeBrokerActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("TradeAndroid", $r13), from the following sources:
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_smallWidget") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("test", $r5), from the following sources:
+	- $z0 = virtualinvoke $r2.<android.os.Bundle: boolean getBoolean(java.lang.String)>("can_edit_key") (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("id_key") (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[],int,int)>($r4, 0, $i0), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r3, "skyTerminate-----------------------"), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink interfaceinvoke $r11.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("frist_load_ad_date", $r2), from the following sources:
+	- $r2 = virtualinvoke $r0.<wind.android.LogoAdActivity: android.content.Intent getIntent()>() (in <wind.android.LogoAdActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.LogoAdActivity: android.content.Intent getIntent()>() (in <wind.android.LogoAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("name", $r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.StrateListActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>("name") (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("dbshi", $r5), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>($r1, 0, $i0), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink virtualinvoke $r12.<java.io.Writer: void write(java.lang.String)>($r8), from the following sources:
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putStringArray(java.lang.String,java.lang.String[])>("windCodes", $r2), from the following sources:
+	- $r7 = virtualinvoke $r0.<wind.android.f5.activity.SpeedDetailActivity: android.content.Intent getIntent()>() (in <wind.android.f5.activity.SpeedDetailActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("position") (in <wind.android.f5.activity.SpeedDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(char[],int,int)>($r3, 0, $i0) on line 1131, from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.DiscussDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.DiscussDetailActivity: void initData()>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>("servercode") (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.StrategyNewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.StrategyNewsDetailActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.ChannelDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.ChannelDetailActivity: void getIntentData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $l0 = virtualinvoke $r2.<android.os.Bundle: long getLong(java.lang.String)>("message_id") (in <wind.android.bussiness.strategy.activity.StrategyNewsDetailActivity: void getIntentData()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $z0 = virtualinvoke $r2.<android.os.Bundle: boolean getBoolean(java.lang.String)>("can_edit_key") (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.activity.StrateListActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.activity.StrateListActivity: void getIntentData()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboDetailActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("servercode") (in <wind.android.bussiness.strategy.activity.ChannelDetailActivity: void getIntentData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("id_key") (in <wind.android.bussiness.strategy.group.combo.ComboDetailActivity: void initIntent()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Found a flow to sink interfaceinvoke $r2.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r1, $i0), from the following sources:
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r0.<wind.android.TradeAndroidAppDelegate: android.content.Intent getIntent()>() (in <wind.android.TradeAndroidAppDelegate: void mainTouchEvent(android.view.View,android.view.MotionEvent)>)
+	- $r5 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<uk.co.senab.photoview.gallery.GalleryAnimationActivity: android.content.Intent getIntent()>() (in <uk.co.senab.photoview.gallery.GalleryAnimationActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r0.<wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.uploadPhoto.LoadPhotoActivity: void initView()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.combo.ComboEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r5 = virtualinvoke $r3.<android.os.Bundle: java.util.ArrayList getParcelableArrayList(java.lang.String)>("titleList") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.Object get(java.lang.String)>("NewsDetilToNextModel") (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r4 = virtualinvoke $r0.<wind.android.bussiness.trade.activity.TradeBranchLetterActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.trade.activity.TradeBranchLetterActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = virtualinvoke $r0.<wind.android.bussiness.probe.activity.UserInfoEditActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("PHOTO_PATH") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: int[] getIntArray(java.lang.String)>("imgResId") (in <wind.android.MaskActivity: void initData()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r1 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.network.HttpConnectionImpl: void connect()>)
+	- $r3 = virtualinvoke $r12.<android.os.Bundle: java.lang.String getString(java.lang.String)>("NICK_NAME") (in <wind.android.bussiness.probe.activity.UserInfoEditActivity: void init()>)
+	- $r2 = virtualinvoke $r0.<wind.android.news.NewsDetailActivity: android.content.Intent getIntent()>() (in <wind.android.news.NewsDetailActivity: wind.android.news.anews.NewsDetilToNextModel getDefaultNextModel()>)
+	- $r17 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("WindCode") (in <wind.android.TradeAndroidAppDelegate: void startNewStock(android.content.Intent)>)
+	- $r3 = virtualinvoke $r0.<wind.android.MaskActivity: android.content.Intent getIntent()>() (in <wind.android.MaskActivity: void initData()>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_image") (in <wind.android.bussiness.strategy.group.combo.ComboEditActivity: void initIntent()>)
+	- $r3 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<wind.android.bussiness.strategy.group.PreviewPictureActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.strategy.group.PreviewPictureActivity: void initData()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("target_user_id") (in <wind.android.bussiness.openaccount.activity.VideoAuthViewActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<wind.android.bussiness.openaccount.activity.InstallSignActivity: android.content.Intent getIntent()>() (in <wind.android.bussiness.openaccount.activity.InstallSignActivity: void initData()>)
+Analysis has run for 80.708226306 seconds

@@ -65,7 +65,7 @@ public class Main {
     private static void runAnalyse(String inputDirStr, String outputDirStr) {
 
         // 获取所有sink列表
-        String[] sinks = FileUtil.getAllSinksFromDefinition("SourcesAndSinks.txt");
+        String[] sinks = FileUtil.getAllSinksFromDefinition(Constants.SINK_SOURCE_FILE_NAME);
         DataUtil.initData(sinks);
 
         // 分析当前目录下的所有result文件，并保存结果与变量中
@@ -90,10 +90,10 @@ public class Main {
 
         // 构造matlab的quadprog命令
         try {
-            File matlab = new File(OUTPUT_DIR + "/matlab_command.txt");
+            File matlab = new File(OUTPUT_DIR + "/" + Constants.MATLAB_INPUT_FILE_NAME);
             BufferedWriter bw = new BufferedWriter(new FileWriter(matlab, false));
             // 获取指定的样本值
-            Map<String, Integer> assignedScores = FileUtil.readAssignedScores(INPUT_DIR + "/examples.txt");
+            Map<String, Integer> assignedScores = FileUtil.readAssignedScores(INPUT_DIR + "/" + Constants.EXAMPLE_FILE_NAME);
             // 构造H矩阵，和F矩阵
             long[][] H = new long[sinks.length][sinks.length];
             long[] F = new long[sinks.length];
@@ -198,7 +198,7 @@ public class Main {
     private static void runStatistic(String inputDirStr, String outputDirStr) {
 
         // 获取所有sink列表
-        String[] sinks = FileUtil.getAllSinksFromDefinition("SourcesAndSinks.txt");
+        String[] sinks = FileUtil.getAllSinksFromDefinition(Constants.SINK_SOURCE_FILE_NAME);
         DataUtil.initData(sinks);
 
         // 分析当前目录下的所有result文件，并保存结果与变量中
@@ -278,7 +278,7 @@ public class Main {
                 sink.count = summarySinks[i];
                 queue.add(sink);
             }
-            File summaryFile = new File(OUTPUT_DIR + "/" + "summary.txt");
+            File summaryFile = new File(OUTPUT_DIR + "/" + Constants.STATISTIC_SUMMARY_FILE_NAME);
             BufferedWriter bw = new BufferedWriter(new FileWriter(summaryFile, false));
             while (!queue.isEmpty()) {
                 SinkStatistic sink = queue.poll();
@@ -299,7 +299,7 @@ public class Main {
     private static void runCalculate(String inputDir, String outputDir) {
 
         // 获取所有sink列表
-        String[] sinks = FileUtil.getAllSinksFromDefinition("SourcesAndSinks.txt");
+        String[] sinks = FileUtil.getAllSinksFromDefinition(Constants.SINK_SOURCE_FILE_NAME);
         DataUtil.initData(sinks);
 
         final String INPUT_DIR = inputDir == null ? "./inputDir" : inputDir;
@@ -308,7 +308,7 @@ public class Main {
         // 从matlab的结果中，获取相关权重
         double[] weight = new double[sinks.length];
         try {
-            File matlabRes = new File(inputDir + "/matlab_result.txt");
+            File matlabRes = new File(inputDir + "/" + Constants.MATLAB_OUTPUT_FILE_NAME);
             BufferedReader bd = new BufferedReader(new FileReader(matlabRes));
             for (int i = 0; i < weight.length; i++) {
                 weight[i] = Double.valueOf(bd.readLine());
@@ -334,7 +334,7 @@ public class Main {
         }
         // 计算每个result文件的值，并写入文件中
         try {
-            File valuesFile = new File(outputDir + "/values.txt");
+            File valuesFile = new File(outputDir + "/" + Constants.CALCULATE_RESULT_FILE_NAME);
             BufferedWriter bw = new BufferedWriter(new FileWriter(valuesFile));
             for (FileSinkInfo info : sinkInfos) {
                 bw.write(info.apkName);

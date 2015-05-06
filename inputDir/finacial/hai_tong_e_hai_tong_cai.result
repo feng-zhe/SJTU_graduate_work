@@ -1,0 +1,90 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/hai_tong_e_hai_tong_cai.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: java.awt.datatransfer.DataFlavor is a phantom class!
+Warning: javax.activation.ActivationDataFlavor is a phantom class!
+Warning: javax.activation.CommandMap is a phantom class!
+Warning: javax.activation.DataContentHandler is a phantom class!
+Warning: javax.activation.DataHandler is a phantom class!
+Warning: javax.activation.DataSource is a phantom class!
+Warning: javax.activation.FileDataSource is a phantom class!
+Warning: javax.activation.MailcapCommandMap is a phantom class!
+Warning: javax.mail.Address is a phantom class!
+Warning: javax.mail.Authenticator is a phantom class!
+Warning: javax.mail.BodyPart is a phantom class!
+Warning: javax.mail.Header is a phantom class!
+Warning: javax.mail.Message$RecipientType is a phantom class!
+Warning: javax.mail.Message is a phantom class!
+Warning: javax.mail.MessagingException is a phantom class!
+Warning: javax.mail.Multipart is a phantom class!
+Warning: javax.mail.Part is a phantom class!
+Warning: javax.mail.Session is a phantom class!
+Warning: javax.mail.Transport is a phantom class!
+Warning: javax.mail.internet.ContentType is a phantom class!
+Warning: javax.mail.internet.InternetAddress is a phantom class!
+Warning: javax.mail.internet.InternetHeaders is a phantom class!
+Warning: javax.mail.internet.MimeBodyPart is a phantom class!
+Warning: javax.mail.internet.MimeMessage is a phantom class!
+Warning: javax.mail.internet.MimeMultipart is a phantom class!
+Warning: javax.mail.internet.MimePart is a phantom class!
+Warning: javax.mail.internet.SharedInputStream is a phantom class!
+Warning: javax.naming.NamingEnumeration is a phantom class!
+Warning: javax.naming.NamingException is a phantom class!
+Warning: javax.naming.directory.Attribute is a phantom class!
+Warning: javax.naming.directory.Attributes is a phantom class!
+Warning: javax.naming.directory.DirContext is a phantom class!
+Warning: javax.naming.directory.InitialDirContext is a phantom class!
+Warning: javax.naming.directory.SearchControls is a phantom class!
+Warning: javax.naming.directory.SearchResult is a phantom class!
+Warning: junit.textui.TestRunner is a phantom class!
+Warning: com.example.cairh_sjkh_it.MainActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 12.9 seconds.
+[Spark] Solution found in 12.9 seconds.
+Removed 579 call edges
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1) on line 33, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("key_connecttype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink virtualinvoke $r0.<com.cairh.app.sjkh.SchemeActivity: void startActivity(android.content.Intent)>($r2) on line 60, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.cairh.app.sjkh.SchemeActivity: android.content.Intent getIntent()>() (in <com.cairh.app.sjkh.SchemeActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("key_funcid", $r6) on line 101, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink $r4 = interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2) on line 49, from the following sources:
+	- $r1 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <cn.htsec.data.old.RmsAdapter: java.lang.String getString(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("TDLog", $r9), from the following sources:
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r1) (in <com.tendcloud.tenddata.TCAgent: java.lang.String a(android.os.Bundle,java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("", $r1) on line 15, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("key_connecttype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("", $r2) on line 50, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("key_connecttype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("TDLog", $r5), from the following sources:
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r1) (in <com.tendcloud.tenddata.TCAgent: java.lang.String a(android.os.Bundle,java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("", $r2) on line 37, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("key_connecttype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("", $r1) on line 18, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+	- $i0 = virtualinvoke $r2.<android.os.Bundle: int getInt(java.lang.String)>("key_connecttype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("key_funcid", $r6) on line 87, from the following sources:
+	- $r3 = virtualinvoke $r0.<com.starzone.libs.module.Module: android.content.Intent getIntent()>() (in <com.starzone.libs.module.Module: void onCreate(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("key_pagetype") (in <cn.htsec.TradeModule: void receiveData(android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("TDLog", $r9), from the following sources:
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r1) (in <com.tendcloud.tenddata.TCAgent: java.lang.String a(android.os.Bundle,java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("sjkh", $r0) on line 69, from the following sources:
+	- $r14 = virtualinvoke $r0.<com.cairh.app.sjkh.MainActivity: android.content.Intent getIntent()>() (in <com.cairh.app.sjkh.MainActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.cairh.app.sjkh.ui.VideoActivity: android.content.Intent getIntent()>() (in <com.cairh.app.sjkh.ui.VideoActivity: void onCreate(android.os.Bundle)>)
+Analysis has run for 45.136283952 seconds

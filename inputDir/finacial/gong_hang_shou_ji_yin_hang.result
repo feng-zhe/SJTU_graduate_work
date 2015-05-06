@@ -1,0 +1,100 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/gong_hang_shou_ji_yin_hang.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.icbc.activity.login.DirectBankFarewellActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegInputVerifyCodeActivity is a phantom class!
+Warning: com.xiaomi.mipush.sdk.MessageHandleService is a phantom class!
+Warning: com.xiaomi.push.service.receivers.PkgUninstallReceiver is a phantom class!
+Warning: com.icbc.activity.share.ShareActivity is a phantom class!
+Warning: com.icbc.activity.share.ShareToOtherPlatformActivity is a phantom class!
+Warning: com.icbc.activity.login.SetPasswordSuccessActivity is a phantom class!
+Warning: com.baidu.location.f is a phantom class!
+Warning: com.icbc.im.receiver.MiPushReceiver is a phantom class!
+Warning: com.icbc.im.service.MainService is a phantom class!
+Warning: com.xiaomi.mipush.sdk.PushMessageHandler is a phantom class!
+Warning: com.icbc.activity.usbkey.UKeyAsistantActivity is a phantom class!
+Warning: com.icbc.im.receiver.MyWReceiver is a phantom class!
+Warning: com.icbc.activity.test.TestActivity is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebViewForB2C is a phantom class!
+Warning: com.icbc.activity.login.BankMsgListActivity is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebView is a phantom class!
+Warning: com.icbc.activity.main.MainActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegInput1Activity is a phantom class!
+Warning: com.icbc.service.ICBCMonitorService is a phantom class!
+Warning: com.icbc.activity.common.ErrorActivity is a phantom class!
+Warning: com.icbc.component.unionlogin.WebViewLoginActivity is a phantom class!
+Warning: com.xiaomi.push.service.XMPushService is a phantom class!
+Warning: com.icbc.activity.bankmessage.BankMessageListActivity is a phantom class!
+Warning: com.xiaomi.push.service.receivers.NetworkStatusReceiver is a phantom class!
+Warning: com.icbc.im.receiver.HuaweiPushReceiver is a phantom class!
+Warning: com.icbc.activity.main.SubMenuTipsActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegSuccessActivity is a phantom class!
+Warning: com.icbc.activity.login.SetPrevMessageActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegInputMobileActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegConfirmActivity is a phantom class!
+Warning: com.icbc.activity.qrcode.QRCodeDetailActivity is a phantom class!
+Warning: com.icbc.activity.login.JumpToWelcomeActivity is a phantom class!
+Warning: com.safedemo.phoneStateReceiver is a phantom class!
+Warning: com.icbc.activity.login.FarewellActivity is a phantom class!
+Warning: com.icbc.activity.contact.DirectBankContactActivity is a phantom class!
+Warning: com.icbc.activity.common.NotificationReceiveActivity is a phantom class!
+Warning: com.icbc.activity.lock.LockActivity is a phantom class!
+Warning: com.icbc.wxapi.WXEntryActivity is a phantom class!
+Warning: com.icbc.activity.usbkey.UKeyAsistantTipsActivity is a phantom class!
+Warning: com.icbc.activity.main.SubMenuActivity is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebViewForDirectBank is a phantom class!
+Warning: com.icbc.activity.login.BankNoticeListActivity is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebViewForPortal is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebViewForConformity is a phantom class!
+Warning: com.icbc.activity.login.BankMsgDetailActivity is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebViewToExternal is a phantom class!
+Warning: com.huawei.deviceCloud.microKernel.push.EventReceiver is a phantom class!
+Warning: com.icbc.activity.init.LoadingActivity is a phantom class!
+Warning: com.icbc.chat.activity.ImageViewActivity is a phantom class!
+Warning: com.icbc.activity.init.GuideActivity is a phantom class!
+Warning: com.huawei.deviceCloud.microKernel.push.RichPushActivity is a phantom class!
+Warning: com.icbc.activity.lock.SetLockActivity is a phantom class!
+Warning: com.icbc.im.ui.activity.accountbalance.AccountBalanceRemindActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegAgreementActivity is a phantom class!
+Warning: com.icbc.activity.qrcode.QRCodeScanActivity is a phantom class!
+Warning: com.icbc.activity.qrcode.QRCodeDetailMoreActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegErrorActivity is a phantom class!
+Warning: com.safedemo.catchInfo is a phantom class!
+Warning: com.icbc.activity.login.DirectBankLoginErrorActivity is a phantom class!
+Warning: com.icbc.chat.activity.WebViewActivity is a phantom class!
+Warning: com.icbc.activity.qrcode.QRCodeScanForWebViewActivity is a phantom class!
+Warning: com.icbc.service.ICBCDirectBankMonitorService is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegInput2Activity is a phantom class!
+Warning: cn.sharesdk.framework.ShareSDKUIShell is a phantom class!
+Warning: com.icbc.im.ui.activity.chat.PublicChatActivity is a phantom class!
+Warning: cn.gov.pbc.apptsm.client.mobile.andorid.extbiz.bank.Activity001 is a phantom class!
+Warning: com.icbc.activity.cloudpay.ICBCCloudPayJumpActivity is a phantom class!
+Warning: com.icbc.im.ui.activity.chat.ImageProcessorActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegAgreementDetailActivity is a phantom class!
+Warning: com.icbc.activity.main.DirectBankAboutActivity is a phantom class!
+Warning: com.icbc.activity.main.MoreActivity is a phantom class!
+Warning: com.icbc.activity.common.NullActivity is a phantom class!
+Warning: com.icbc.activity.lock.DrawLockActivity is a phantom class!
+Warning: com.icbc.activity.share.BindMicroBlogActivity is a phantom class!
+Warning: com.icbc.activity.qrcode.QRCodeInfoActivity is a phantom class!
+Warning: com.huawei.deviceCloud.microKernel.push.PushMKService is a phantom class!
+Warning: com.icbc.activity.init.LoadingAdvActivity is a phantom class!
+Warning: com.icbc.activity.login.WelcomeActivity is a phantom class!
+Warning: com.icbc.im.network.NetWorkChangeReceiver is a phantom class!
+Warning: com.xiaomi.push.service.receivers.PingReceiver is a phantom class!
+Warning: com.icbc.activity.login.SetPasswordActivity is a phantom class!
+Warning: com.icbc.activity.reg.SelfRegTipsActivity is a phantom class!
+Warning: com.icbc.activity.contact.ContactActivity is a phantom class!
+Warning: com.icbc.im.service.WatchService is a phantom class!
+Warning: com.icbc.activity.web.ICBCWebViewForPortalTrade is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Removed 8 call edges
+Analysis has run for 1.965364241 seconds

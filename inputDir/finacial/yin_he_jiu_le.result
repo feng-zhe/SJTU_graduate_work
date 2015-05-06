@@ -1,0 +1,72 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/yin_he_jiu_le.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: android.graphics.Outline is a phantom class!
+Warning: android.transition.Transition$EpicenterCallback is a phantom class!
+Warning: android.view.View$OnApplyWindowInsetsListener is a phantom class!
+Warning: android.view.WindowInsets is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 10.9 seconds.
+[Spark] Solution found in 10.9 seconds.
+Removed 1032 call edges
+Found a flow to sink virtualinvoke $r3.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("url", $r2), from the following sources:
+	- $r9 = virtualinvoke $r0.<com.galaxy.stock.ui.yyb.YybDetailActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.ui.yyb.YybDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: void startActivity(android.content.Intent)>($r2), from the following sources:
+	- $r9 = virtualinvoke $r0.<com.galaxy.stock.ui.yyb.YybDetailActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.ui.yyb.YybDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r3 = virtualinvoke $r0.<cn.emoney.yh.main.CTrade: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.CTrade: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.emoney.yh.main.SmtActivity: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.SmtActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r8 = virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.GalaxyMainActivity: void onResume()>)
+Found a flow to sink virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: void startActivity(android.content.Intent)>($r2), from the following sources:
+	- $r9 = virtualinvoke $r0.<com.galaxy.stock.ui.yyb.YybDetailActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.ui.yyb.YybDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r3 = virtualinvoke $r0.<cn.emoney.yh.main.CTrade: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.CTrade: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.emoney.yh.main.SmtActivity: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.SmtActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r8 = virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.GalaxyMainActivity: void onResume()>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[])>($r6), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.d.b: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: void startActivity(android.content.Intent)>($r8), from the following sources:
+	- $r8 = virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.GalaxyMainActivity: void onResume()>)
+	- $r8 = virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.GalaxyMainActivity: void onResume()>)
+	- $r9 = virtualinvoke $r0.<com.galaxy.stock.ui.yyb.YybDetailActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.ui.yyb.YybDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r3 = virtualinvoke $r0.<cn.emoney.yh.main.CTrade: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.CTrade: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.emoney.yh.main.SmtActivity: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.SmtActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r8 = virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.GalaxyMainActivity: void onResume()>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("im", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.d.b: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("cuid", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.a.b.c.b$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("cuid", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.a.b.c.b$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("im", $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.platform.comapi.d.b: java.lang.String k(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r9 = virtualinvoke $r0.<com.galaxy.stock.ui.yyb.YybDetailActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.ui.yyb.YybDetailActivity: void onCreate(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r4 = virtualinvoke $r0.<com.galaxy.stock.stare.StareSetActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.stare.StareSetActivity: void onResume()>)
+	- $r3 = virtualinvoke $r0.<cn.emoney.yh.main.CTrade: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.CTrade: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.emoney.yh.main.SmtActivity: android.content.Intent getIntent()>() (in <cn.emoney.yh.main.SmtActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r2 = virtualinvoke $r0.<cn.com.chinastock.trade.login.LoginActivity: android.content.Intent getIntent()>() (in <cn.com.chinastock.trade.login.LoginActivity: void onResume()>)
+	- $r8 = virtualinvoke $r0.<com.galaxy.stock.GalaxyMainActivity: android.content.Intent getIntent()>() (in <com.galaxy.stock.GalaxyMainActivity: void onResume()>)
+Analysis has run for 21.675523753 seconds

@@ -1,0 +1,230 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/jiao_tong_yin_hang.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: android.animation.ValueAnimator is a phantom class!
+Warning: android.app.ActionBar is a phantom class!
+Warning: android.app.ActivityOptions is a phantom class!
+Warning: android.app.Notification$BigPictureStyle is a phantom class!
+Warning: android.app.Notification$BigTextStyle is a phantom class!
+Warning: android.app.Notification$Builder is a phantom class!
+Warning: android.app.Notification$InboxStyle is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$Page is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$PageInfo is a phantom class!
+Warning: android.hardware.display.DisplayManager is a phantom class!
+Warning: android.hardware.usb.UsbDevice is a phantom class!
+Warning: android.hardware.usb.UsbDeviceConnection is a phantom class!
+Warning: android.hardware.usb.UsbInterface is a phantom class!
+Warning: android.hardware.usb.UsbManager is a phantom class!
+Warning: android.media.RemoteControlClient$OnGetPlaybackPositionListener is a phantom class!
+Warning: android.media.RemoteControlClient$OnPlaybackPositionUpdateListener is a phantom class!
+Warning: android.media.RemoteControlClient is a phantom class!
+Warning: android.os.CancellationSignal is a phantom class!
+Warning: android.os.Parcelable$ClassLoaderCreator is a phantom class!
+Warning: android.print.PageRange is a phantom class!
+Warning: android.print.PrintAttributes$Builder is a phantom class!
+Warning: android.print.PrintAttributes$MediaSize is a phantom class!
+Warning: android.print.PrintAttributes is a phantom class!
+Warning: android.print.PrintDocumentAdapter$LayoutResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter$WriteResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter is a phantom class!
+Warning: android.print.PrintDocumentInfo$Builder is a phantom class!
+Warning: android.print.PrintDocumentInfo is a phantom class!
+Warning: android.print.PrintJob is a phantom class!
+Warning: android.print.PrintManager is a phantom class!
+Warning: android.print.pdf.PrintedPdfDocument is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowAttachListener is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowFocusChangeListener is a phantom class!
+Warning: android.view.View$AccessibilityDelegate is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeInfo is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeProvider is a phantom class!
+Warning: android.view.MenuItem$OnActionExpandListener is a phantom class!
+Warning: android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener is a phantom class!
+Warning: android.widget.SearchView$OnQueryTextListener is a phantom class!
+Warning: android.widget.SearchView$OnCloseListener is a phantom class!
+Warning: android.widget.SearchView is a phantom class!
+Warning: android.view.ActionProvider is a phantom class!
+Warning: android.view.accessibility.AccessibilityRecord is a phantom class!
+Warning: android.widget.EdgeEffect is a phantom class!
+Warning: android.widget.ListPopupWindow is a phantom class!
+Warning: android.widget.PopupMenu is a phantom class!
+Warning: android.widget.ShareActionProvider is a phantom class!
+Warning: com.bankcomm.NotificationSettingsActivity is a phantom class!
+Warning: com.bankcomm.MapViewAndroid is a phantom class!
+Warning: com.bankcomm.client.android.CaptureActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 12.4 seconds.
+[Spark] Solution found in 12.4 seconds.
+Removed 1096 call edges
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("RecordEngineImpl", $r1), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2), from the following sources:
+	- $r2 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.bankcomm.f.ab: java.util.List b()>)
+	- $r2 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.bankcomm.f.ab: java.util.List b()>)
+	- $r2 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.bankcomm.f.ab: java.util.List b()>)
+	- $r2 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.bankcomm.f.ab: java.util.List b()>)
+	- $r2 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.bankcomm.f.ab: java.util.List b()>)
+Found a flow to sink specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r4), from the following sources:
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r3), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink interfaceinvoke $r2.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("NOTIFICATION_ICON", $i0), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r7), from the following sources:
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("theme", $i0), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("CALLBACK_ACTIVITY_CLASS_NAME", $r2), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r11 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.rytong.tools.httpconnect.HttpManager: java.net.HttpURLConnection getOpenedConnection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("theme", $i0), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<com.bankcomm.ui.BaseViewCopy: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.bankcomm.ui.BaseViewCopy: android.content.Intent getIntent()>() (in <com.bankcomm.ui.BaseViewCopy: void r()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r9 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r8, null, null, null, null), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.app.Activity: void startActivity(android.content.Intent)>($r3), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map getWordAnswerInfoForJson(java.lang.String)>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink virtualinvoke $r0.<com.bankcomm.ui.BOCMainHome: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r11.<java.io.OutputStream: void write(byte[])>($r10), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map getWordAnswerInfoForJson(java.lang.String)>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink virtualinvoke $r9.<java.io.OutputStream: void write(byte[])>($r8), from the following sources:
+	- $r16 = virtualinvoke $r10.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r15, null, $r2, null, null) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r1 = interfaceinvoke $r21.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r1 = interfaceinvoke $r16.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r25 = interfaceinvoke $r21.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+	- $r21 = virtualinvoke $r11.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r20, null, $r2, null, null) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r20 = interfaceinvoke $r16.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r6 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendWordForVoice(java.lang.String)>)
+Found a flow to sink interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("API_KEY", $r2), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r31.<java.io.OutputStream: void write(byte[])>($r30), from the following sources:
+	- $r11 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.rytong.tools.httpconnect.HttpManager: java.net.HttpURLConnection getOpenedConnection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $r16 = virtualinvoke $r10.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r15, null, $r2, null, null) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r1 = interfaceinvoke $r21.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r1 = interfaceinvoke $r16.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r10 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld$1: void run()>)
+	- $r12 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch$1: void run()>)
+	- $r9 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld$1: void run()>)
+	- $r25 = interfaceinvoke $r21.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r21 = virtualinvoke $r11.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r20, null, $r2, null, null) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld$1: void run()>)
+	- $r9 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r8, null, null, null, null) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch$1: void run()>)
+	- $r20 = interfaceinvoke $r16.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearchOld: com.xioai.framework.common.spellindex.contacts.PhoneNumSearchResults searchPhone(java.lang.String,java.lang.String)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+	- $r13 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.xioai.framework.common.spellindex.contacts.ContactsSearch$1: void run()>)
+Found a flow to sink virtualinvoke $r0.<com.bankcomm.ui.BOCMyMapViewActivity: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $r1 = virtualinvoke $r0.<com.bankcomm.ui.BOCMyMapViewActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.BOCMyMapViewActivity: void onResume()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.FileOutputStream: void write(byte[])>($r4), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<java.io.FileOutputStream: void write(byte[])>($r2), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("CALLBACK_ACTIVITY_PACKAGE_NAME", $r2), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r11.<java.io.OutputStream: void write(byte[])>($r0), from the following sources:
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink virtualinvoke $r5.<android.app.Activity: void startActivity(android.content.Intent)>($r3), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink virtualinvoke $r0.<com.bankcomm.ui.PushMessageActivity: void startActivity(android.content.Intent)>($r1), from the following sources:
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("XMPP_PORT", $i0), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.app.Activity: void startActivity(android.content.Intent)>($r5), from the following sources:
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xioai.framework.api.NetVoiceClient: java.util.Map sendVoiceData(byte[],java.lang.String)>)
+	- $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xioai.framework.util.DeviceInfoUtils: java.lang.String getDeviceId()>)
+Found a flow to sink specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1), from the following sources:
+	- $r4 = virtualinvoke $r6.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r1) (in <com.xioai.framework.XIAOIApplication: java.lang.String getMetaDataString(java.lang.String)>)
+Found a flow to sink virtualinvoke $r7.<java.io.FileOutputStream: void write(byte[],int,int)>($r8, 0, $i0), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("DEVICE_ID", $r1), from the following sources:
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.rytong.tools.androidpn.client.NotificationService: void onCreate()>)
+Found a flow to sink virtualinvoke $r3.<java.io.FileOutputStream: void write(byte[])>($r2), from the following sources:
+	- $r10 = virtualinvoke $r0.<com.bankcomm.ui.LocationServiceActivity: android.content.Intent getIntent()>() (in <com.bankcomm.ui.LocationServiceActivity: void onCreate(android.os.Bundle)>)
+	- $i1 = virtualinvoke $r9.<com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$InternalAudioRecord: int read(byte[],int,int)>($r2, 0, $i0) (in <com.xioai.framework.voicecontrol.recorder.RecordEngineImpl$RecordRunnable: void run()>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BOCMyMapViewActivity: void onCreate(android.os.Bundle)>)
+	- $r11 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r9, 0) (in <com.bankcomm.iccard.BaseActivity: void onCreate(android.os.Bundle)>)
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("i", $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.location.j$b: java.lang.String do(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("VERSION", $r2), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("XMPP_HOST", $r2), from the following sources:
+	- $i0 = virtualinvoke $r1.<android.os.Bundle: int getInt(java.lang.String)>("theme") (in <com.bankcomm.ui.BaseViewCopy: void onCreate(android.os.Bundle)>)
+Analysis has run for 30.427449469 seconds
