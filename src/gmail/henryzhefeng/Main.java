@@ -86,7 +86,7 @@ public class Main {
         // 构造输出文件夹
         final String OUTPUT_DIR = outputDirStr;
         File outDir = new File(OUTPUT_DIR);
-        if (!outDir.exists()) outDir.mkdir();
+        if (!outDir.exists()) outDir.mkdirs();
 
         // 构造matlab的quadprog命令
         try {
@@ -219,7 +219,7 @@ public class Main {
         // 构造输出文件夹
         final String OUTPUT_DIR = outputDirStr;
         File outDir = new File(OUTPUT_DIR);
-        if (!outDir.exists()) outDir.mkdir();
+        if (!outDir.exists()) outDir.mkdirs();
 
         // 后续会用到的比较操作者，使得在优先级队列中按照降序排列
         Comparator<SinkStatistic> comparator = new Comparator<SinkStatistic>() {
