@@ -311,7 +311,7 @@ public class Main {
             File matlabRes = new File(inputDir + "/" + Constants.MATLAB_OUTPUT_FILE_NAME);
             BufferedReader bd = new BufferedReader(new FileReader(matlabRes));
             for (int i = 0; i < weight.length; i++) {
-                weight[i] = Double.valueOf(bd.readLine());
+                weight[i] = Double.valueOf(bd.readLine().trim());
             }
             bd.close();
         } catch (IOException ex) {

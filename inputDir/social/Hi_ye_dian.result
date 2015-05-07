@@ -1,0 +1,295 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/social/Hi_ye_dian.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.sina.weibo.sdk.api.share.IWeiboHandler$Response is a phantom class!
+Warning: com.sina.weibo.sdk.auth.WeiboAuthListener is a phantom class!
+Warning: com.sina.weibo.sdk.auth.sso.SsoHandler is a phantom class!
+Warning: com.sina.weibo.sdk.auth.AuthInfo is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.IWeiboShareAPI is a phantom class!
+Warning: com.sina.weibo.sdk.api.BaseMediaObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.ImageObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.TextObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.BaseResponse is a phantom class!
+Warning: com.sina.weibo.sdk.exception.WeiboException is a phantom class!
+Warning: com.sina.weibo.sdk.api.WebpageObject is a phantom class!
+Warning: com.sina.weibo.sdk.api.WeiboMultiMessage is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.BaseRequest is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.IWeiboHandler is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.SendMultiMessageToWeiboRequest is a phantom class!
+Warning: com.sina.weibo.sdk.api.share.WeiboShareSDK is a phantom class!
+Warning: com.sina.weibo.sdk.utils.Utility is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 21.0 seconds.
+[Spark] Solution found in 21.0 seconds.
+Removed 1210 call edges
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("data", $r2) on line 43, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("data") (in <com.gymhd.hyd.ui.activity.DSActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r7.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>("device_uuid", $r8), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.mistatistic.sdk.controller.g: java.lang.String b(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.mistatistic.sdk.controller.g: java.lang.String b(android.content.Context)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("qshi", $r2) on line 69, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qshi") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r14.<java.io.OutputStream: void write(byte[],int,int)>($r13, 0, $i1), from the following sources:
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String c(android.content.Context)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String c(android.content.Context)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("qmc", $r2) on line 74, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qmc") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("token", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("sheng", $r2) on line 72, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sheng") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("data", $r2) on line 56, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("data") (in <com.gymhd.hyd.ui.activity.D_LoveMeActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("data", $r2) on line 58, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("data") (in <com.gymhd.hyd.ui.activity.DDPActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("f", $r2) on line 68, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("f") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent)>($r2), from the following sources:
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>("MI_STAT", $r1, $r2), from the following sources:
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("ss", $r2) on line 71, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ss") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: void sendBroadcast(android.content.Intent)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_identifier_") (in <cn.sharesdk.wechat.utils.WXMediaMessage$a: cn.sharesdk.wechat.utils.WXMediaMessage a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r1.<cn.sharesdk.wechat.utils.WechatHandlerActivity: android.content.Intent getIntent()>() (in <cn.sharesdk.wechat.utils.j: boolean a(cn.sharesdk.wechat.utils.WechatHandlerActivity,cn.sharesdk.wechat.utils.k)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("sheng", $r2) on line 66, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("sheng") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r1, $r4), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("gco_now", $r2) on line 63, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("gco_now") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("dd", $r2) on line 74, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("dd") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Single: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("env_type", $i0), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("ss", $r2) on line 65, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ss") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("last_know_lat", $r4) on line 307, from the following sources:
+	- $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() (in <com.amap.mapapi.core.d: void a(android.content.Context,android.location.Location)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r1, $i0), from the following sources:
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("code", $r2) on line 75, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Single: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("code") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: void startActivity(android.content.Intent)>($r2) on line 317, from the following sources:
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r11.<java.io.OutputStream: void write(byte[],int,int)>($r10, 0, $i0), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.mistatistic.sdk.controller.g: java.lang.String b(android.content.Context)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.mistatistic.sdk.controller.q: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.mistatistic.sdk.controller.q: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.mistatistic.sdk.controller.g: java.lang.String b(android.content.Context)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.mistatistic.sdk.controller.q: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+Found a flow to sink virtualinvoke $r12.<java.io.Writer: void write(java.lang.String)>($r8) on line 575, from the following sources:
+	- $r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: void onCreated(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("task", $r2) on line 60, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("task") (in <com.gymhd.hyd.ui.activity.DDPActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink $r12 = interfaceinvoke $r12.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("device_id", $r10), from the following sources:
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("gna_now", $r2) on line 70, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("gna_now") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r12.<java.io.Writer: void write(java.lang.String)>($r8) on line 581, from the following sources:
+	- $r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: void onCreated(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>($r1, $i0, $i1), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r3) on line 35, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("dd") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("f") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Single: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("code") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r3) on line 73, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.mistatistic.sdk.controller.g: java.lang.String b(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.mistatistic.sdk.controller.g: java.lang.String b(android.content.Context)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1) on line 85, from the following sources:
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("protocol") (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ManageYdAct: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ManageYdAct: void intidata()>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Yd_DetailedActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Yd_DetailedActivity: void initData()>)
+	- $r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.GuangBTActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.GuangBTActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: void onCreated(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.GuangActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.GuangActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.GuangBTActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.GuangBTActivity: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ProsonWbActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ProsonWbActivity: void onCreated(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("ql", $r2) on line 70, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ql") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("qshi", $r2) on line 75, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qshi") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("shi", $r2) on line 73, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("shi") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink specialinvoke $r5.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>("appversion", $r1), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("MI_STAT", $r1), from the following sources:
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("gno_now", $r2) on line 61, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("gno_now") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("device_id", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ext_chid") (in <com.xiaomi.smack.packet.d: void <init>(android.os.Bundle)>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r7.<java.io.Writer: void write(java.lang.String)>($r1) on line 484, from the following sources:
+	- $r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: void onCreated(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("com.xiaomi.common.Network", $r5), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String c(android.content.Context)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String c(android.content.Context)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("f", $r2) on line 62, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("f") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("xhdd", $r2) on line 59, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("xhdd") (in <com.gymhd.hyd.ui.activity.DDPActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("last_know_lng", $r4) on line 309, from the following sources:
+	- $d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() (in <com.amap.mapapi.core.d: void a(android.content.Context,android.location.Location)>)
+Found a flow to sink specialinvoke $r5.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>("imei", $r1), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String c(android.content.Context)>)
+	- $r1 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.xiaomi.push.service.g: java.lang.String c(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("app_id", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink specialinvoke $r1.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>("stat_value", $r4), from the following sources:
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("app_token", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("qmc", $r2) on line 68, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("qmc") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("userInfo", $r4) on line 76, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Single: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("shi", $r2) on line 67, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("shi") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("f", $r2) on line 73, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("f") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Single: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r1, $i0), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("uuid", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("gno_now", $r2) on line 67, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("gno_now") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("ds", $r2) on line 77, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ds") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("security", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("gna_now", $r2) on line 64, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("gna_now") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r1), from the following sources:
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+Found a flow to sink virtualinvoke $r7.<com.amap.mapapi.location.a$a: boolean sendMessage(android.os.Message)>($r9) on line 213, from the following sources:
+	- $r9 = virtualinvoke $r7.<com.amap.mapapi.location.a$a: android.os.Message obtainMessage()>() (in <com.amap.mapapi.location.a: void run()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("gco_now", $r2) on line 69, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("gco_now") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("data", $r2) on line 45, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("data") (in <com.gymhd.hyd.ui.activity.D_LoverActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r4, $r3), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("package_name", $r2), from the following sources:
+	- $r2 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r4, 0, $r1, 0) (in <com.xiaomi.push.service.timers.a: void a(android.content.Intent,long)>)
+	- $r8 = virtualinvoke $r6.<android.net.wifi.WifiInfo: java.lang.String getSSID()>() (in <com.xiaomi.network.HostManager: java.lang.String getActiveNetworkLabel()>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("xhdd", $r2) on line 57, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("xhdd") (in <com.gymhd.hyd.ui.activity.D_LoveMeActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r2, $r3) on line 39, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Single: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Single: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r1, $l0), from the following sources:
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.xiaomi.mistatistic.sdk.controller.i: com.xiaomi.mistatistic.sdk.data.h a(android.database.Cursor)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, 0, $i3) on line 73, from the following sources:
+	- $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.nostra13.universalimageloader.core.download.BaseImageDownloader: java.net.HttpURLConnection createConnection(java.lang.String,java.lang.Object)>)
+	- $r5 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Personalhomepage: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r4 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_OtherActivity: void onCreated(android.os.Bundle)>)
+	- $r8 = virtualinvoke $r1.<android.os.Bundle: java.lang.Object get(java.lang.String)>("userinfo") (in <com.gymhd.hyd.ui.activity.Personalhomepage: void onCreated(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.PersonalHomePage_DdpActivity: void onCreated(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("ds", $r2) on line 71, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.Sing_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ds") (in <com.gymhd.hyd.ui.activity.Sing_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("com.xiaomi.common.Network", $r5), from the following sources:
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+	- $r5 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.xiaomi.channel.commonutils.network.a: java.net.HttpURLConnection a(android.content.Context,java.net.URL)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("task", $r2) on line 58, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)>("task") (in <com.gymhd.hyd.ui.activity.D_LoveMeActivity: void onRestoreInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("ql", $r2) on line 76, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.gymhd.hyd.ui.activity.ChatActivity_for_Group: android.content.Intent getIntent()>() (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onCreate(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r1.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ql") (in <com.gymhd.hyd.ui.activity.ChatActivity_for_Group: void onRestoreInstanceState(android.os.Bundle)>)
+Analysis has run for 34.95458829 seconds

@@ -1,0 +1,379 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/social/tong_cheng_yue_hui_ba.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: android.annotation.SuppressLint is a phantom class!
+Warning: android.annotation.TargetApi is a phantom class!
+Warning: android.app.ActivityOptions is a phantom class!
+Warning: android.app.Notification$BigPictureStyle is a phantom class!
+Warning: android.app.Notification$BigTextStyle is a phantom class!
+Warning: android.app.Notification$InboxStyle is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$Page is a phantom class!
+Warning: android.graphics.pdf.PdfDocument$PageInfo is a phantom class!
+Warning: android.graphics.pdf.PdfDocument is a phantom class!
+Warning: android.hardware.display.DisplayManager is a phantom class!
+Warning: android.media.RemoteControlClient$OnGetPlaybackPositionListener is a phantom class!
+Warning: android.media.RemoteControlClient$OnPlaybackPositionUpdateListener is a phantom class!
+Warning: android.media.RemoteControlClient is a phantom class!
+Warning: android.os.CancellationSignal is a phantom class!
+Warning: android.os.Parcelable$ClassLoaderCreator is a phantom class!
+Warning: android.print.PageRange is a phantom class!
+Warning: android.print.PrintAttributes$Builder is a phantom class!
+Warning: android.print.PrintAttributes$MediaSize is a phantom class!
+Warning: android.print.PrintAttributes is a phantom class!
+Warning: android.print.PrintDocumentAdapter$LayoutResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter$WriteResultCallback is a phantom class!
+Warning: android.print.PrintDocumentAdapter is a phantom class!
+Warning: android.print.PrintDocumentInfo$Builder is a phantom class!
+Warning: android.print.PrintDocumentInfo is a phantom class!
+Warning: android.print.PrintJob is a phantom class!
+Warning: android.print.PrintManager is a phantom class!
+Warning: android.print.pdf.PrintedPdfDocument is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowAttachListener is a phantom class!
+Warning: android.view.ViewTreeObserver$OnWindowFocusChangeListener is a phantom class!
+Warning: android.view.View$AccessibilityDelegate is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeInfo is a phantom class!
+Warning: android.view.accessibility.AccessibilityNodeProvider is a phantom class!
+Warning: android.view.MenuItem$OnActionExpandListener is a phantom class!
+Warning: android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener is a phantom class!
+Warning: android.telephony.CellIdentityCdma is a phantom class!
+Warning: android.telephony.CellIdentityGsm is a phantom class!
+Warning: android.telephony.CellIdentityLte is a phantom class!
+Warning: android.telephony.CellIdentityWcdma is a phantom class!
+Warning: android.telephony.CellInfo is a phantom class!
+Warning: android.telephony.CellInfoCdma is a phantom class!
+Warning: android.telephony.CellInfoGsm is a phantom class!
+Warning: android.telephony.CellInfoLte is a phantom class!
+Warning: android.telephony.CellInfoWcdma is a phantom class!
+Warning: android.telephony.CellSignalStrengthCdma is a phantom class!
+Warning: android.telephony.CellSignalStrengthGsm is a phantom class!
+Warning: android.telephony.CellSignalStrengthLte is a phantom class!
+Warning: android.telephony.CellSignalStrengthWcdma is a phantom class!
+Warning: android.view.ActionProvider is a phantom class!
+Warning: android.view.ViewPropertyAnimator is a phantom class!
+Warning: android.view.accessibility.AccessibilityRecord is a phantom class!
+Warning: android.widget.EdgeEffect is a phantom class!
+Warning: android.widget.ShareActionProvider is a phantom class!
+Warning: com.mylove.control.activity.MainFragment1 is a phantom class!
+Warning: com.mylove.control.activity.SelectFriendActivity is a phantom class!
+Warning: com.mylove.control.activity.RegistActivity is a phantom class!
+Warning: com.alipay.android.app.sdk.WapPayActivity is a phantom class!
+Warning: com.mylove.control.activity.ExpandInfosActivity is a phantom class!
+Warning: com.mylove.control.activity.BriefActivity is a phantom class!
+Warning: com.mylove.control.activity.ChatActivity1 is a phantom class!
+Warning: com.mylove.control.activity.MyInfosActivity is a phantom class!
+Warning: com.mylove.control.activity.BuyActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 19.1 seconds.
+[Spark] Solution found in 19.1 seconds.
+Removed 954 call edges
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r14 = virtualinvoke $r0.<com.mylove.control.activity.SelectOneActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.SelectOneActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putFloat(java.lang.String,float)>($r9, $f0) on line 215, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r2.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r1, $l0) on line 263, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("NetError", $r0) on line 58, from the following sources:
+	- $r4 = virtualinvoke $r2.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1) (in <com.alipay.sdk.net.MspHttpClient: org.apache.http.HttpResponse a(org.apache.http.client.methods.HttpUriRequest)>)
+Found a flow to sink interfaceinvoke $r1.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("t", $l0) on line 363, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.ChatActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.ChatActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.HiSetActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.HiSetActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2) on line 299, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("deviceid", $r6) on line 99, from the following sources:
+	- $r7 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r10) (in <com.alipay.mobilesecuritysdk.deviceID.DeviceIdModel: com.alipay.mobilesecuritysdk.deviceID.IdResponseInfo UploadData(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r9, $z0) on line 217, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AbActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AbActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r14 = virtualinvoke $r0.<com.mylove.control.activity.SelectOneActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.SelectOneActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[])>($r6), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.HiSetActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.HiSetActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r9, $l1) on line 213, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AbActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AbActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("AppError", $r4) on line 45, from the following sources:
+	- $r4 = virtualinvoke $r2.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1) (in <com.alipay.sdk.net.MspHttpClient: org.apache.http.HttpResponse a(org.apache.http.client.methods.HttpUriRequest)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AbActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AbActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r0.<com.mylove.control.activity.MyPayActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.MyPayActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.PaidDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.PaidDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r9, $r10) on line 209, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.PaidDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.PaidDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r9, $i0) on line 211, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AbActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AbActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r14 = virtualinvoke $r0.<com.mylove.control.activity.SelectOneActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.SelectOneActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("FailOperating", $r0) on line 44, from the following sources:
+	- $r4 = virtualinvoke $r2.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1) (in <com.alipay.sdk.net.MspHttpClient: org.apache.http.HttpResponse a(org.apache.http.client.methods.HttpUriRequest)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r9.<java.io.Writer: void write(char[],int,int)>($r4, 0, $i0) on line 229, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int)>(0) (in <com.unionpay.mobile.android.upviews.b: void b(java.lang.String)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.PaidDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.PaidDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $i1 = staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>("dlgstyle", 0) (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tn") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentWID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("resultIntentAction") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $i0 = virtualinvoke $r4.<android.os.Bundle: int getInt(java.lang.String)>("reqOriginalId") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("uppayuri") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: java.lang.String a(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("appID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $z1 = virtualinvoke $r4.<android.os.Bundle: boolean getBoolean(java.lang.String)>("invokedbyplugin") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ex_mode") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("ResultURL") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("tencentUID") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r7 = virtualinvoke $r4.<android.os.Bundle: java.lang.String getString(java.lang.String)>("paydata") (in <com.unionpay.mobile.android.nocard.utils.a: boolean a(android.content.Intent,com.unionpay.mobile.android.model.b)>)
+	- $r1 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.unionpay.mobile.android.nocard.utils.UPPayEngine: void c(java.lang.String)>)
+	- $r4 = virtualinvoke $r5.<android.app.Activity: android.content.Intent getIntent()>() (in <com.unionpay.mobile.android.nocard.views.j: void <init>(android.content.Context)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.ChatActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.ChatActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.ChatActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.ChatActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>("_wxobject_identifier_") (in <com.tencent.mm.sdk.modelmsg.WXMediaMessage$Builder: com.tencent.mm.sdk.modelmsg.WXMediaMessage fromBundle(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<com.myhoney.wxapi.WXPayEntryActivity: android.content.Intent getIntent()>() (in <com.myhoney.wxapi.WXPayEntryActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r14 = virtualinvoke $r0.<com.mylove.control.activity.SelectOneActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.SelectOneActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.GiftActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.GiftActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.PaidDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.PaidDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r8.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("t2", $l2) on line 132, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImei(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.ta.utdid2.android.utils.PhoneInfoUtils: java.lang.String getImsi(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.HiSetActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.HiSetActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r14, $r11) on line 164, from the following sources:
+	- $r2 = virtualinvoke $r1.<android.bluetooth.BluetoothAdapter: java.lang.String getAddress()>() (in <com.alipay.mobilesecuritysdk.deviceID.CollectDeviceInfo: java.lang.String getBluMac()>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() (in <com.alipay.mobilesecuritysdk.deviceID.CollectDeviceInfo: java.lang.String getImsi(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.alipay.mobilesecuritysdk.deviceID.CollectDeviceInfo: java.lang.String getImei(android.content.Context)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.ChatActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.ChatActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.ChatActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.ChatActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r3 = virtualinvoke $r0.<com.mylove.control.activity.WritepowerActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.WritepowerActivity: void onCreate(android.os.Bundle)>)
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.AccountActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.AccountActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<com.mylove.control.activity.HiSetActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.HiSetActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r2 = virtualinvoke $r0.<com.mylove.control.activity.UserDetailActivity: android.content.Intent getIntent()>() (in <com.mylove.control.activity.UserDetailActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink $r11 = interfaceinvoke $r7.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r4), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.location.an: void <init>(android.content.Context,com.baidu.location.LocationClientOption,com.baidu.location.an$a)>)
+	- $r13 = interfaceinvoke $r11.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.baidu.location.s$2: void run()>)
+	- $i2 = virtualinvoke $r9.<android.telephony.gsm.GsmCellLocation: int getLac()>() (in <com.baidu.location.an: void do(android.telephony.CellLocation)>)
+	- $i2 = virtualinvoke $r9.<android.telephony.gsm.GsmCellLocation: int getCid()>() (in <com.baidu.location.an: void do(android.telephony.CellLocation)>)
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.baidu.location.b.a.b$a: java.lang.String a(android.content.Context,java.lang.String)>)
+Analysis has run for 35.898795441 seconds

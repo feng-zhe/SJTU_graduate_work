@@ -1,0 +1,170 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/social/Hi_jia.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.d3rich.HI.MainActivity is a phantom class!
+Warning: com.d3rich.HI.MSGInfoActivity is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: com.d3rich.HI.ViewActivity is a phantom class!
+Warning: com.d3rich.HI.PermisstionActivity is a phantom class!
+Warning: com.d3rich.HI.InviateFriends is a phantom class!
+Warning: com.d3rich.HI.PermissSwitch is a phantom class!
+Warning: com.d3rich.HI.SetActivity is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 12.4 seconds.
+[Spark] Solution found in 12.4 seconds.
+Removed 794 call edges
+Found a flow to sink $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) on line 225, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) on line 211, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink specialinvoke $r3.<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>($r1, $r2) on line 58, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.ListDao: com.d3rich.entity.ListEntity setEntity(android.database.Cursor,com.d3rich.entity.ListEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(6) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(7) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(5) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 54, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r21) on line 443, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: void startActivity(android.content.Intent)>($r5) on line 64, from the following sources:
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r6, $r3) on line 56, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 44, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+Found a flow to sink virtualinvoke $r3.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r4) on line 81, from the following sources:
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 61, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 39, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2) on line 72, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.ListDao: com.d3rich.entity.ListEntity setEntity(android.database.Cursor,com.d3rich.entity.ListEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(6) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(7) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(5) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("deviceinfo", $r5) on line 301, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tencent.android.tpush.service.c.c: java.lang.String c(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2) on line 72, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.ListDao: com.d3rich.entity.ListEntity setEntity(android.database.Cursor,com.d3rich.entity.ListEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(6) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(7) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(5) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r2) on line 593, from the following sources:
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 34, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("\u8054\u7cfb\u4eba", $r3) on line 181, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.ListDao: com.d3rich.entity.ListEntity setEntity(android.database.Cursor,com.d3rich.entity.ListEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(6) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(7) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(5) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: void sendBroadcast(android.content.Intent)>($r4) on line 608, from the following sources:
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("share", $r1), from the following sources:
+	- $r7 = virtualinvoke $r5.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r3, 0) (in <com.d3rich.HI.MyShareActivity: android.content.Intent getShareIntent(java.lang.String)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r2) on line 72, from the following sources:
+	- $r10 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, "contact_id = ?", $r9, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r6 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r2, null, null, null, null) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(4) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.ListDao: com.d3rich.entity.ListEntity setEntity(android.database.Cursor,com.d3rich.entity.ListEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(2) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(6) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(3) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(7) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r7 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+	- $r4 = interfaceinvoke $r1.<android.database.Cursor: java.lang.String getString(int)>(5) (in <com.d3rich.dao.LoginDao: com.d3rich.entity.LoginInfoEntity setEntity(android.database.Cursor,com.d3rich.entity.LoginInfoEntity,int)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.d3rich.HI.SortListActivity: java.util.List filledData(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r3, $r4) on line 49, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r1, 0) (in <com.tencent.android.tpush.a.b: java.lang.String b(android.content.Context)>)
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) (in <com.tencent.android.tpush.service.c.c: java.util.List a(android.content.Context)>)
+	- $r8 = virtualinvoke $r0.<android.os.Bundle: java.lang.String getString(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r3 = virtualinvoke $r0.<android.app.Activity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushManager: com.tencent.android.tpush.XGPushClickedResult a(android.app.Activity)>)
+	- $r4 = virtualinvoke $r0.<android.os.Bundle: java.lang.Object get(java.lang.String)>($r5) (in <com.tencent.android.tpush.service.report.a: java.lang.String a(android.os.Bundle)>)
+	- $r2 = virtualinvoke $r0.<com.tencent.android.tpush.XGPushActivity: android.content.Intent getIntent()>() (in <com.tencent.android.tpush.XGPushActivity: void onCreate(android.os.Bundle)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r21, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+	- $r23 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r22, $i2, $r4, $i0) (in <com.tencent.android.tpush.a.b: void a(android.content.Context,com.tencent.android.tpush.a.h)>)
+Analysis has run for 30.328951469 seconds
