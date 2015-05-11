@@ -61,7 +61,7 @@ public class StringUtil {
     }
 
     public static String getApkNameFromString(String fileName) {
-        int dot = fileName.indexOf('.');
+        int dot = fileName.lastIndexOf('.');
         return fileName.substring(0, dot);
     }
 }

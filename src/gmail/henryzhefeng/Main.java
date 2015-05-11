@@ -302,9 +302,6 @@ public class Main {
         String[] sinks = FileUtil.getAllSinksFromDefinition(Constants.SINK_SOURCE_FILE_NAME);
         DataUtil.initData(sinks);
 
-        final String INPUT_DIR = inputDir == null ? "./inputDir" : inputDir;
-        final String OUTPUT_DIR = outputDir == null ? "./outputDir" : outputDir;
-
         // 从matlab的结果中，获取相关权重
         double[] weight = new double[sinks.length];
         try {
@@ -321,7 +318,7 @@ public class Main {
 
         // 获取每个文件的sink统计
         List<FileSinkInfo> sinkInfos = new ArrayList<FileSinkInfo>();
-        File dir = new File(INPUT_DIR);
+        File dir = new File(inputDir);
         File[] files = dir.listFiles();
         // for test
         for (File file : files) {
@@ -332,6 +329,11 @@ public class Main {
                 sinkInfos.add(info);
             }
         }
+
+        // 构造输出文件夹
+        File outDir = new File(outputDir);
+        if (!outDir.exists()) outDir.mkdirs();
+
         // 计算每个result文件的值，并写入文件中
         try {
             File valuesFile = new File(outputDir + "/" + Constants.CALCULATE_RESULT_FILE_NAME);
