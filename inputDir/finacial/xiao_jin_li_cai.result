@@ -1,0 +1,106 @@
+Entry point calculation done.
+Created a SourceSinkManager with 91 sources, 129 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/meng/Apps/finacial/xiao_jin_li_cai.apk with 91 sources and 129 sinks...
+Starting infoflow computation...
+Warning: com.kuark.xjlc.activity.IVYesterdayRecord is a phantom class!
+Warning: com.kuark.xjlc.pay.BankVerificationActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.InvestPeopleListActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingContractActivity is a phantom class!
+Warning: com.kuark.xjlc.wxapi.WXEntryActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.IVWebOnlineMoney is a phantom class!
+Warning: com.kuark.xjlc.activity.ActiveUseAwardCard is a phantom class!
+Warning: com.kuark.xjlc.activity.IVSign is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountRechargeClose is a phantom class!
+Warning: com.igexin.download.DownloadService is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountDebitModifyListActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountDetailActicity is a phantom class!
+Warning: com.kuark.xjlc.activity.IVDoInvestAuto is a phantom class!
+Warning: com.kuark.xjlc.activity.IVSignListActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountWithDrawActivity is a phantom class!
+Warning: com.igexin.sdk.PushReceiver is a phantom class!
+Warning: com.kuark.xjlc.activity.IVShowCounterfoil is a phantom class!
+Warning: com.kuark.xjlc.activity.IVProfitSourceBorrowerDetail is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingWechat is a phantom class!
+Warning: com.kuark.xjlc.activity.IVListActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.FontText is a phantom class!
+Warning: com.kuark.xjlc.activity.IVDoInvest is a phantom class!
+Warning: com.kuark.xjlc.activity.IVDoWithdraw is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountMangerDebitActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingBoot is a phantom class!
+Warning: com.kuark.xjlc.activity.ActiveShareAward is a phantom class!
+Warning: com.kuark.xjlc.activity.ActiveCenter is a phantom class!
+Warning: com.umeng.update.UpdateDialogActivity is a phantom class!
+Warning: com.kuark.image_edge_dect.EdgeDetect is a phantom class!
+Warning: com.kuark.image_edge_dect.HandIdShoot is a phantom class!
+Warning: com.kuark.xjlc.service.CheckStatusService is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingShareActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.MainActivity is a phantom class!
+Warning: com.sa.isecurity.plugin.SAKbdActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingUnlockDepwd is a phantom class!
+Warning: com.kuark.xjlc.activity.IVProfitCalculator is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingHelpDetail is a phantom class!
+Warning: com.kuark.xjlc.activity.ActiveRecord is a phantom class!
+Warning: com.igexin.download.DownloadReceiver is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingDePwd is a phantom class!
+Warning: com.igexin.sdk.PushActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.ActiveSourceList is a phantom class!
+Warning: com.baidu.android.pushservice.RegistrationReceiver is a phantom class!
+Warning: com.kuark.xjlc.activity.IVWithdrawRecord is a phantom class!
+Warning: com.kuark.xjlc.activity.BootingActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountUpgrade is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountFindPwdActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.IVOrderRecord is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountDebitModifyActivity is a phantom class!
+Warning: com.igexin.sdk.PushManagerReceiver is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountDebitSelectActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingPrologue is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingMessageList is a phantom class!
+Warning: com.igexin.download.DownloadProvider is a phantom class!
+Warning: com.kuark.xjlc.activity.IVListItemDetail is a phantom class!
+Warning: com.kuark.xjlc.activity.IVDoInvest2 is a phantom class!
+Warning: com.baidu.android.pushservice.PushServiceReceiver is a phantom class!
+Warning: cn.sharesdk.framework.ShareSDKUIShell is a phantom class!
+Warning: com.umeng.update.net.DownloadingService is a phantom class!
+Warning: com.kuark.xjlc.activity.IVTopTenz is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountDeblock is a phantom class!
+Warning: com.kuark.xjlc.activity.IVProfitSourceBorrowerList is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountRechargeActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingHelp is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingAboutUs is a phantom class!
+Warning: com.kuark.xjlc.activity.SpaceImageDetailActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.IVDoInvestResult is a phantom class!
+Warning: com.kuark.xjlc.activity.ActiveShareCard is a phantom class!
+Warning: com.igexin.sdk.PushService is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountRechargeInvest is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingPwdActivity is a phantom class!
+Warning: com.igexin.getuiext.service.PayloadReceiver is a phantom class!
+Warning: com.kuark.xjlc.activity.WebViewActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingMaintenance is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountFindPwdProgressActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.SettingHowInvest is a phantom class!
+Warning: com.igexin.getuiext.service.GetuiExtService is a phantom class!
+Warning: com.kuark.xjlc.activity.IVWebProfitSourceBorrowerList is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountInputDialog is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountRecordListActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountWithdrawResult is a phantom class!
+Warning: com.kuark.xjlc.activity.IVOnlineMoney is a phantom class!
+Warning: com.kuark.xjlc.activity.IVProfitSource is a phantom class!
+Warning: com.igexin.getuiext.activity.GetuiExtActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountRecordDetailActivity is a phantom class!
+Warning: com.kuark.xjlc.service.MyPushMessageReceiver is a phantom class!
+Warning: com.kuark.xjlc.service.PushReceiver is a phantom class!
+Warning: com.baidu.android.pushservice.PushService is a phantom class!
+Warning: com.kuark.xjlc.activity.AccountAddDebitActivity is a phantom class!
+Warning: com.kuark.xjlc.activity.UserLoginOrRegistration is a phantom class!
+Warning: com.kuark.xjlc.activity.IVBoughtRecord is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+Removed 8 call edges
+Analysis has run for 1.940466591 seconds
